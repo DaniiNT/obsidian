@@ -17,7 +17,7 @@
 <html>
 <head>
     <title>Document</title>
-    <style>
+    <style> 
         p{
             color: red;
         }
@@ -34,7 +34,9 @@
 - `<style>` Tag ini digunakan untuk menyematkan gaya CSS ke dalam dokumen HTML.
 - `<p>` Ini adalah selektor CSS yang memilih semua elemen `<p>` (paragraf) dalam dokumen HTML.
 - `{ color: red; }` - Ini adalah blok deklarasi yang berisi satu properti CSS, yaitu `color`, yang ditetapkan ke nilai `red`. Artinya, semua teks dalam elemen `<p>` akan ditampilkan dengan warna merah.
+
 ![IMAGE](../asetcss/1.png)
+
 # Percobaan Kedua CSS
 ## Kode
  ```css
@@ -49,23 +51,35 @@
 ___
 ## backround-color
 Before:
+
 ![image](../asetcss/button.png)
+
 After:
+
 ![image](../asetcss/bgcolor.png)
+
 Penjelasan:
 - Ketika program dari tag button di beri atribut `backround-color: crimson;` maka warna latar dari button akan berubah sesuai dengan yang di inginkan, terlihat perbedaannya sebelum di beri atribut `backround-color: crimson;` warna dari latar button tetap berwarna putih alias default.
 ## color:
 Before:
+
 ![image](../asetcss/button.png)
+
 After:
+
 ![image](../asetcss/color.png)
+
 Penjelasan:
 - Ketika program dari tag button di beri atribut `color: aqua:` maka warna font dari button tersebut berubah menjadi warna sesuai yang di inginkan terlihat perbedaan sebelum di beri atribut `color: aqua;` warma dari font button tersebut tetap berwana hitam alias default.
 ## Font-size
 Before:
+
 ![image](../asetcss/button.png)
+
 After:
+
 ![image](../asetcss/font.png)
+
 Penjelasan:
 - Terlihat di atas perbedaannya ketika button di beri atribut `font-size: 50pt;` ukuran dari buttob tersebut langsung berubah menjadi besar karena atribut tersebut.
 # Cara Pemanggilan CSS
@@ -74,7 +88,9 @@ Penjelasan:
 ```html
  <p style="color: red;">Selamat Datang</p>
 ```
+
 ![image](../asetcss/1.png)
+
 ## Internal
 **Internal CSS** Aturan gaya CSS ditempatkan di dalam elemen `<style>` di bagian `<head>` dokumen HTML. Contohnya:
 ```html
@@ -84,7 +100,9 @@ Penjelasan:
         }
     </style>
 ```
+
 ![image](../asetcss/1.png)
+
 ## External
 **External CSS** Aturan gaya CSS ditempatkan di dalam berkas terpisah dengan ekstensi `.css` dan disematkan ke dalam dokumen HTML menggunakan tag `<link>`. Contoh jika aturan gaya disimpan dalam berkas bernama `style.css`.
 ```html
@@ -100,7 +118,9 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
 - **Nama Elemen**: Misalnya, `p` untuk paragraf, `h1`, `h2`, dll., untuk judul.
 - **Kelas**: Ditandai dengan titik (`.`) diikuti dengan nama kelas. Contoh: `.class-name`.
 - **ID**: Ditandai dengan tanda pagar (`#`) diikuti dengan nama ID. Contoh: `#id-name`.
+
 ![image](../asetcss/1.png)
+
 # Selektor
 ## Elemen
 ```css

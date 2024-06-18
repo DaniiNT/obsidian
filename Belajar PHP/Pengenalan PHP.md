@@ -445,6 +445,7 @@ if ($nilai >= 80) {
 }
 ```
 **Hasil:**
+![image](../asetphp/else-else.png)
  
 **Analisis:**
 1. Variabel `$nilai` diberikan nilai 75.
