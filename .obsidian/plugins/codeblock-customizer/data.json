@@ -1,0 +1,356 @@
+{
+  "Themes": {
+    "Obsidian": {
+      "settings": {
+        "codeblock": {
+          "enableLineNumbers": true,
+          "enableActiveLineHighlight": true,
+          "enableDeleteCodeButton": false,
+          "codeBlockBorderStylingPosition": "disable",
+          "showIndentationLines": false,
+          "enableCopyCodeButton": false,
+          "enableLinks": false,
+          "enableLinkUpdate": false,
+          "textHighlight": true
+        },
+        "semiFold": {
+          "enableSemiFold": false,
+          "visibleLines": 5,
+          "showAdditionalUncollapseButon": false
+        },
+        "header": {
+          "boldText": false,
+          "italicText": false,
+          "collapseIconPosition": "hide",
+          "collapsedCodeText": "",
+          "codeblockLangBoldText": true,
+          "codeblockLangItalicText": true,
+          "alwaysDisplayCodeblockLang": false,
+          "alwaysDisplayCodeblockIcon": false,
+          "displayCodeBlockLanguage": true,
+          "displayCodeBlockIcon": false
+        },
+        "gutter": {
+          "highlightActiveLineNr": true,
+          "enableHighlight": true
+        },
+        "inlineCode": {
+          "enableInlineCodeStyling": false
+        },
+        "printing": {
+          "enablePrintToPDFStyling": false,
+          "forceCurrentColorUse": false
+        },
+        "common": {
+          "enableInSourceMode": false
+        },
+        "enableEditorActiveLineHighlight": true
+      },
+      "colors": {
+        "dark": {
+          "codeblock": {
+            "activeLineColor": "--color-base-30",
+            "backgroundColor": "--code-background",
+            "highlightColor": "--text-highlight-bg",
+            "alternateHighlightColors": {},
+            "languageBorderColors": {}
+          },
+          "header": {
+            "backgroundColor": "--code-background",
+            "textColor": "--text-normal",
+            "lineColor": "--color-base-30",
+            "codeBlockLangTextColor": "--code-comment",
+            "codeBlockLangBackgroundColor": "--code-background"
+          },
+          "gutter": {
+            "textColor": "--text-faint",
+            "backgroundColor": "--code-background",
+            "activeLineNrColor": "--text-muted"
+          },
+          "inlineCode": {
+            "backgroundColor": "--code-background",
+            "textColor": "--code-normal"
+          },
+          "editorActiveLineColor": "--color-base-20",
+          "languageSpecificColors": {}
+        },
+        "light": {
+          "codeblock": {
+            "activeLineColor": "--color-base-30",
+            "backgroundColor": "--code-background",
+            "highlightColor": "--text-highlight-bg",
+            "alternateHighlightColors": {},
+            "languageBorderColors": {}
+          },
+          "header": {
+            "backgroundColor": "--code-background",
+            "textColor": "--text-normal",
+            "lineColor": "--color-base-30",
+            "codeBlockLangTextColor": "--code-comment",
+            "codeBlockLangBackgroundColor": "--code-background"
+          },
+          "gutter": {
+            "textColor": "--text-faint",
+            "backgroundColor": "--code-background",
+            "activeLineNrColor": "--text-muted"
+          },
+          "inlineCode": {
+            "backgroundColor": "--code-background",
+            "textColor": "--code-normal"
+          },
+          "editorActiveLineColor": "--color-base-20",
+          "languageSpecificColors": {}
+        }
+      }
+    },
+    "Solarized": {
+      "settings": {
+        "codeblock": {
+          "enableLineNumbers": true,
+          "enableActiveLineHighlight": true,
+          "enableDeleteCodeButton": false,
+          "codeBlockBorderStylingPosition": "disable",
+          "showIndentationLines": false,
+          "enableCopyCodeButton": false,
+          "enableLinks": false,
+          "enableLinkUpdate": false,
+          "textHighlight": true
+        },
+        "semiFold": {
+          "enableSemiFold": false,
+          "visibleLines": 5,
+          "showAdditionalUncollapseButon": false
+        },
+        "header": {
+          "boldText": false,
+          "italicText": false,
+          "collapseIconPosition": "hide",
+          "collapsedCodeText": "",
+          "codeblockLangBoldText": true,
+          "codeblockLangItalicText": true,
+          "alwaysDisplayCodeblockLang": false,
+          "alwaysDisplayCodeblockIcon": false,
+          "displayCodeBlockLanguage": true,
+          "displayCodeBlockIcon": false
+        },
+        "gutter": {
+          "highlightActiveLineNr": false,
+          "enableHighlight": false
+        },
+        "inlineCode": {
+          "enableInlineCodeStyling": false
+        },
+        "printing": {
+          "enablePrintToPDFStyling": false,
+          "forceCurrentColorUse": false
+        },
+        "common": {
+          "enableInSourceMode": false
+        },
+        "enableEditorActiveLineHighlight": true
+      },
+      "colors": {
+        "dark": {
+          "codeblock": {
+            "activeLineColor": "#073642",
+            "backgroundColor": "#002B36",
+            "highlightColor": "#054b5c",
+            "alternateHighlightColors": {},
+            "languageBorderColors": {}
+          },
+          "header": {
+            "backgroundColor": "#0a4554",
+            "textColor": "#DADADA",
+            "lineColor": "#46cced",
+            "codeBlockLangTextColor": "#000000",
+            "codeBlockLangBackgroundColor": "#008080"
+          },
+          "gutter": {
+            "textColor": "#6c6c6c",
+            "backgroundColor": "#073642",
+            "activeLineNrColor": "#DADADA"
+          },
+          "inlineCode": {
+            "backgroundColor": "#054b5c",
+            "textColor": "#DADADA"
+          },
+          "editorActiveLineColor": "#468eeb33",
+          "languageSpecificColors": {}
+        },
+        "light": {
+          "codeblock": {
+            "activeLineColor": "#EDE8D6",
+            "backgroundColor": "#FCF6E4",
+            "highlightColor": "#E9DFBA",
+            "alternateHighlightColors": {},
+            "languageBorderColors": {}
+          },
+          "header": {
+            "backgroundColor": "#D5CCB4",
+            "textColor": "#866704",
+            "lineColor": "#EDD489",
+            "codeBlockLangTextColor": "#C25F30",
+            "codeBlockLangBackgroundColor": "#B8B5AA"
+          },
+          "gutter": {
+            "textColor": "#6c6c6c",
+            "backgroundColor": "#EDE8D6",
+            "activeLineNrColor": "#866704"
+          },
+          "inlineCode": {
+            "backgroundColor": "#E9DFBA",
+            "textColor": "#866704"
+          },
+          "editorActiveLineColor": "#60460633",
+          "languageSpecificColors": {}
+        }
+      }
+    }
+  },
+  "ExcludeLangs": "dataview, ad-*",
+  "SelectedTheme": {
+    "settings": {
+      "codeblock": {
+        "enableLineNumbers": true,
+        "enableActiveLineHighlight": true,
+        "enableDeleteCodeButton": false,
+        "codeBlockBorderStylingPosition": "left",
+        "showIndentationLines": false,
+        "enableCopyCodeButton": true,
+        "enableLinks": false,
+        "enableLinkUpdate": false,
+        "textHighlight": true
+      },
+      "semiFold": {
+        "enableSemiFold": false,
+        "visibleLines": 5,
+        "showAdditionalUncollapseButon": true
+      },
+      "header": {
+        "boldText": false,
+        "italicText": false,
+        "collapseIconPosition": "hide",
+        "collapsedCodeText": "",
+        "codeblockLangBoldText": true,
+        "codeblockLangItalicText": false,
+        "alwaysDisplayCodeblockLang": false,
+        "alwaysDisplayCodeblockIcon": true,
+        "displayCodeBlockLanguage": true,
+        "displayCodeBlockIcon": false
+      },
+      "gutter": {
+        "highlightActiveLineNr": true,
+        "enableHighlight": true
+      },
+      "inlineCode": {
+        "enableInlineCodeStyling": false
+      },
+      "printing": {
+        "enablePrintToPDFStyling": true,
+        "forceCurrentColorUse": false
+      },
+      "common": {
+        "enableInSourceMode": true
+      },
+      "enableEditorActiveLineHighlight": true
+    },
+    "colors": {
+      "dark": {
+        "codeblock": {
+          "activeLineColor": "--color-base-30",
+          "backgroundColor": "#2B2723",
+          "highlightColor": "--text-highlight-bg",
+          "alternateHighlightColors": {},
+          "languageBorderColors": {
+            "php": "#7A5AA2",
+            "html": "#F07B46",
+            "css": "#25D4E6",
+            "sql": "#F2D324"
+          }
+        },
+        "header": {
+          "backgroundColor": "--code-background",
+          "textColor": "#FFFFFF",
+          "lineColor": "#FFFFFF",
+          "codeBlockLangTextColor": "#FFFFFF",
+          "codeBlockLangBackgroundColor": "--code-background"
+        },
+        "gutter": {
+          "textColor": "#FFFFFF",
+          "backgroundColor": "--code-background",
+          "activeLineNrColor": "--text-muted"
+        },
+        "inlineCode": {
+          "backgroundColor": "--code-background",
+          "textColor": "--code-normal"
+        },
+        "editorActiveLineColor": "--color-base-20",
+        "languageSpecificColors": {
+          "html": {
+            "header.backgroundColor": "#F87E05"
+          },
+          "css": {
+            "header.backgroundColor": "#5187D5"
+          },
+          "php": {
+            "header.backgroundColor": "#7A5AA2",
+            "header.lineColor": "#7A5AA2",
+            "header.codeBlockLangBackgroundColor": "#7A5AA2"
+          }
+        }
+      },
+      "light": {
+        "codeblock": {
+          "activeLineColor": "--color-base-30",
+          "backgroundColor": "--code-background",
+          "highlightColor": "--text-highlight-bg",
+          "alternateHighlightColors": {},
+          "languageBorderColors": {
+            "php": "#EFDE53",
+            "html": "#BE02E8",
+            "css": "#325410",
+            "sql": "#01D482"
+          }
+        },
+        "header": {
+          "backgroundColor": "--code-background",
+          "textColor": "--text-normal",
+          "lineColor": "--color-base-30",
+          "codeBlockLangTextColor": "--code-comment",
+          "codeBlockLangBackgroundColor": "--code-background"
+        },
+        "gutter": {
+          "textColor": "--text-faint",
+          "backgroundColor": "--code-background",
+          "activeLineNrColor": "--text-muted"
+        },
+        "inlineCode": {
+          "backgroundColor": "--code-background",
+          "textColor": "--code-normal"
+        },
+        "editorActiveLineColor": "--color-base-20",
+        "languageSpecificColors": {
+          "html": {
+            "header.backgroundColor": "#2b2723"
+          },
+          "css": {
+            "header.backgroundColor": "#2b2723"
+          },
+          "php": {
+            "header.backgroundColor": "#2b2723",
+            "header.lineColor": "#504431",
+            "header.codeBlockLangBackgroundColor": "#2b2723"
+          }
+        }
+      }
+    }
+  },
+  "ThemeName": "Obsidian",
+  "newThemeName": "",
+  "alternateHighlightColorName": "",
+  "languageBorderColorName": "",
+  "foldAllCommand": false,
+  "settingsType": "codeblock",
+  "langSpecificSettingsType": "header.codeBlockLangBackgroundColor",
+  "languageSpecificLanguageName": ""
+}

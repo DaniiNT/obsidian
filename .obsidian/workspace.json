@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "185f12258c6a89a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e5a9eb4bfc37021",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8211de6a54cd3bc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basis Data/Alter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b9a12ef5e03caa33",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0f578cae825c955",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a7d0b18c9da4dee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6b361c45e39f3a7d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "032063a7e2a1c7b9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "4ed8f7e9a9a01d75",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "55fb13c4052fcece",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "58c4aae0b0ff2486",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "659d0f19d28e586d",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "2c455e6529ff64f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3134b8666b275967",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d49b7b4135a50c3d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Basis Data/Alter.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "231f184567e997f9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Basis Data/Alter.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "61ac84124169689e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3f730dc273ad8d60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Basis Data/Alter.md"
+              }
+            }
+          },
+          {
+            "id": "f80d25dc22a36412",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ea3df790107f66e6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "notion-like-tables:Create loom": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "4ed8f7e9a9a01d75",
+  "lastOpenFiles": [
+    "Spaces/Home",
+    "Spaces",
+    "Basis Data/Basis Data.md",
+    "Basis Data/Alter.md",
+    "Basis Data/Data Base.md",
+    "Basis Data/SELECT LANJUTAN.md",
+    "GAMBARBASDAT/tantanganlogin.png",
+    "Basis Data/Pengenalan Basis Data.md",
+    "Praktikum/Praktikum.md",
+    "Belajar PHP/Pengenalan PHP.md",
+    "Belajarr CSS/Eksplorasi CSS....md",
+    "Belajarr CSS/Pengenalan CSS nih.md",
+    "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
+    "assetss/res-2.png",
+    "assetss/responsive-1.png",
+    "assetss/res-3.png",
+    "assetss",
+    "assets/laravel-7.png",
+    "assets/btc-95.png",
+    "assets/btc-94.png",
+    "assets/btc-93.png",
+    "assets/btc-92.png",
+    "assets/btc-91.png",
+    "assets",
+    "Belajar HTML/Pengenalan HTML.md",
+    "Belajar HTML/Belajar HTML.md",
+    "Random",
+    "ASETBASISDATA",
+    "GAMBARBASDAT",
+    "Pak Ibe .md",
+    "Belajar PHP/PHP MySql.md",
+    "Praktikum",
+    "Random/Random.md",
+    "Praktikum/Materi Kelompok.md",
+    "asetklm",
+    "Belajar PHP/Belajar PHP.md",
+    "Belajarr CSS/Belajarr CSS.md",
+    "Praktikum",
+    "Belajarr CSS/CSS Responsive.md",
+    "asethtml/Untitled.md",
+    "asetbs/Untitled.md",
+    "Random/PEMBELAJARAN 5.md",
+    "Basis Data/Select lanjutan(2).md",
+    "Basis Data/SELECT LANJUTAN..md",
+    "ASETBASISDATA/Catatan Alter.md",
+    "Untitled.canvas"
+  ]
+}
