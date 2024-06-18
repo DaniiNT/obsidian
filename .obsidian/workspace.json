@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/Alter.md",
+                "file": "Belajar HTML/Pengenalan HTML.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basis Data/Alter.md",
+                "file": "Belajar HTML/Pengenalan HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basis Data/Alter.md",
+                "file": "Belajar HTML/Pengenalan HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basis Data/Alter.md"
+                "file": "Belajar HTML/Pengenalan HTML.md"
               }
             }
           },
@@ -202,14 +202,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4ed8f7e9a9a01d75",
+  "active": "8211de6a54cd3bc7",
   "lastOpenFiles": [
+    "Basis Data/Pengenalan Basis Data+Data base.md",
+    "Basis Data/Alter.md",
+    "Belajar HTML/Pengenalan HTML.md",
+    "Basis Data/SELECT LANJUTAN.md",
     "Spaces/Home",
     "Spaces",
     "Basis Data/Basis Data.md",
-    "Basis Data/Alter.md",
     "Basis Data/Data Base.md",
-    "Basis Data/SELECT LANJUTAN.md",
     "GAMBARBASDAT/tantanganlogin.png",
     "Basis Data/Pengenalan Basis Data.md",
     "Praktikum/Praktikum.md",
@@ -228,7 +230,6 @@
     "assets/btc-92.png",
     "assets/btc-91.png",
     "assets",
-    "Belajar HTML/Pengenalan HTML.md",
     "Belajar HTML/Belajar HTML.md",
     "Random",
     "ASETBASISDATA",

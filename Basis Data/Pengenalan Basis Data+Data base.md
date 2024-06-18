@@ -15,7 +15,7 @@ ___
  ___
 # Struktur Data Base
 	Contoh Gambar 
-![STRUKTUR|400x300](struktur.jpg)
+![STRUKTUR](../asetbs/struktur.jpg)
 >Struktur database melibatkan tabel sebagai entitas utama penimpanan data, dalam konteks tabel mahasiswa, setiap table memiliki `field(kolom)` seperti NIM, nama, jk, umur.
 >Record adalah `satu baris dalam tabel yang memuat nilai spesifik untuk setiap field.` Misalnya, record dengan NIM 001, nama "Andi", jk "Laki-laki", dan umur 19.
 >Dalam konteks penyimpanan fisik, tabel-tabel ini disimpan dalam `tabung` database. Database ini `merupakan wadah` yang dapat berisi satu atau lebih tabel, setiap tabel dalam data base mahasiswa bisa di anggap sebagai file terkait dengan inormasi mahasiswa ini `menciptakan struktur` heararki di mana `database adalah wadah utama`tabel adalah file, dan record adalah entitas individual yang menyimpan informasi mahasiswa
@@ -37,25 +37,25 @@ ___
 ```MYSQL
 CREATE DATABASE nama_database;
 ```
-![image](1.png)
+![image](../asetbs/1.png)
 ## Show Database
 - Untuk menampilkan *data base* kita bisa menggunakan `SHOW_DATABASES;` untuk menampilkan data base yang telah dibuat;
 ```mysql
 SHOW DATABASES;
 ```
-![image](2.png)
+![image](../asetbs/2.png)
 ## Use Database
 - Untuk menggunakan *database* kita menggunakan query `USE [nama_database]`.
 ```mysql
 USE nama_database;
 ```
-![image](3.png)
+![image](../asetbs/3.png)
 ## Delete Database
 - Lalu untuk menghapus *data base* kita menggunakan query `DROP DATABASE [nama_database]`dan *database* akan terhapus setelah menuliskan query ini.
 ```mysql
 DROP DATABASE nama_database;
 ```
-![IMAGE](4.png)
+![IMAGE](../asetbs/4.png)
 # Tipe Data
 ## Angka
   - `INT:` Untuk menyimpan nilai bilangan bulat (integer). Misalnya, INT dapat digunakan untuk menyimpan angka seperti 1, 100, -10, dan sebagainya. 
@@ -145,13 +145,13 @@ Dalam contoh ini, kita menggunakan `TINYINT(1)` sebagai tipe data untuk kolom co
 ```mysql
 DESC nama_tabel;
 ```
-![image](show.png)
+![image](../asetbs/show.png)
 ## Show Tables
 - Untuk menampilkan daftar tabel yang ada dalam _database_ kita menggunakan query `SHOW TABLES;`dan hasil yang akan tampil ialah seperti berikut
 ```mysql
 SHOW TABLES;
 ```
-![image](P.png)
+![image](../asetbs/P.png)
 # Q&A
 ## Pertanyaan
 1) Mengapa hanya kolom `id_pelanggan` yang menggunakan constraint `PRIMARY KEY`?
@@ -178,7 +178,7 @@ ___
     -> VALUES (data_1, data_2, data_3, data_4);
     ```
 - **Result**
-![image](inser1.png)
+![image](../asetbs/inser1.png)
 ### Insert lebih dari 1 baris
 - Sedangkan untuk menginput nilai yang lebih dari satu baris kita menggunakan format sebagai berikut;
 ```mysql
@@ -188,7 +188,7 @@ INSERT INTO [NAMA_TABLE]
 -> (DATA_1, DATA_2, DATA_3, DATA_4);
 ```
 - Result
-![image](insert2.png)
+![image](../asetbs/insert2.png)
 ## Select
 - Selanjutnya query ini memiliki fungsi untuk menampilkan hasil dari tabel yang telah di inputkan (insert) data kedalam tabel tersebut, berbeda dengan `desc` yang hanya menampilkan struktur dari tabel query ini menampilkan hasil dari tabel
 ### Select (Semua Tabel)
@@ -197,21 +197,21 @@ INSERT INTO [NAMA_TABLE]
 SELECT * FROM (NAMA_TABEL)
 ```
 - Result
-![image](s.png)
+![image](../asetbs/s.png)
 ### Select (hanya kolom)
 - lalu untuk menampilkan beberapa kolom yang spesifik kita dapat menggunakan format yang sedikit berbeda dengan format all table, yaitu seperti dibawah ini :
 ```mysql
 SELECT NAMA_KOLOM_1, NAMA_KOLOM_2, NAMA_KOLOM_N FROM PELANGGAN;
 ```
 - Result
-![image](selectkolom.png)
+![image](../asetbs/selectkolom.png)
 ### Select kondisi "where"
 - lalu kondisi yang saat satu ini berfungsi untuk mengambil data yang lebih spesifik dari sebuah field dengan simbol simbol aritmatika mulai dari "+", "-", "/", "%",">","<". Misalnya kita meminta untuk menampilkan field "Nama_Depan" pada "Id_Pelanggan" ke 2, kita dapat menggunakan simbol aritmatika seperti berikut :
 ```mysql
 SELECT Nama_Kolom FROM Nama_Table WHERE Id_Pelanggan=2;
 ```
 - Result
-![image](asetbs/where.png)
+![image](../asetbs/where.png)
 > [!tip] Analisis
 >> - Insert ialah query yang berfungsi untuk memasukkan data pada table yang telah kita buat.
 >> - Select ialah query yang berfungsi untuk menampilkan hasil table dan select ini terbagi menjadi 3 bagian.
@@ -228,7 +228,7 @@ Format :
 UPDATE [Nama_Table] SET [Nama_Kolom]="Nilai_Pengganti" WHERE kondisi;
 ```
 - Result
-![image](asetbs/update.png)
+![image](../asetbs/update.png)
 ## Delete
 - Kita juga dapat menghapus baris pada table dengan Query *Delete*, untuk menghapus keseluruhan baris kita dapat menggunakan format seperti ini :
 ```mysql
@@ -236,7 +236,7 @@ Format :
 DELETE FROM [Nama_Table] WHERE [Nama_Kolom];
 ```
 - Result
-![image](del.png)
+![image](../asetbs/del.png)
 > [!tip] Analisis
 >> *Update* ialah Query untuk mengganti nilai yang telah ada pada sebuah table yang telah ada sebelumnya.
 >> *Delete* ialah Query untuk menghapus baris pada sebuah tabel yang telah dibuat sebelumnya.

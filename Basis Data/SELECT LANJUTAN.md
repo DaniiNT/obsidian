@@ -11,7 +11,7 @@ CONTOH:
 ```
 
 HASIL:
-![GAMBAR](GAMBARBASDAT/and.png)
+![GAMBAR](../GAMBARBASDAT/and.png)
 
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
@@ -37,7 +37,7 @@ CONTOH:
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/or.png)
+![GAMBAR](../GAMBARBASDAT/or.png)
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **WARNA** adalah sebuah nama kolom pada tabel mobil.
@@ -62,7 +62,7 @@ CONTOH:
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/BETWEENAND.png)
+![GAMBAR](../GAMBARBASDAT/BETWEENAND.png)
 
 KESIMPULAN:
 
@@ -92,7 +92,7 @@ SELECT * FROM mobil WHERE harga_rental NOT BETWEEN 100000 AND 200000;
 
 HASIL:
 
-![gambar](GAMBARBASDAT/notbetween.png)
+![gambar](../GAMBARBASDAT/notbetween.png)
 
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
@@ -123,7 +123,7 @@ SELECT * FROM mobil WHERE harga_rental <= 50000;
 
 HASIL:
 
-![gambar](GAMBARBASDAT/kecilsama.png)
+![gambar](../GAMBARBASDAT/kecilsama.png)
 
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
@@ -151,7 +151,7 @@ SELECT * FROM mobil WHERE harga_rental >= 50000;
 
 HASIL:
 
-![gambar](GAMBARBASDAT/besarsama.png)
+![gambar](../GAMBARBASDAT/besarsama.png)
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -177,7 +177,7 @@ SELECT * FROM mobil WHERE harga_rental <> 50000;
 
 HASIL:
 
-![gambar](GAMBARBASDAT/tidaksama.png)
+![gambar](../GAMBARBASDAT/tidaksama.png)
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -187,27 +187,27 @@ ANALISIS:
 - **500000** adalah nama data pada sebuah kolom.
 - **<>** adalah perintah query yang betugas menentukan syarat *kurang dari atau lebih dari *.
 
-KESIMPULAN: query diatas adalah perintah untuk menampilkan sebuah data dari tabel mobil yang bertujukan pada kolom *harga rental* dengan data *LEBIH DARI ATAU  KURANG DARI  **500000**  jadi hanya data  dengan jumlah lebih dari 50000 atau kurang dari  500000 yang akan ditampilkan (selain dari nilai 500000 yang akan ditampilkan).
+KESIMPULAN: query diatas adalah perintah untuk menampilkan sebuah data dari tabel mobil yang bertujukan pada kolom *harga rental* dengan data *LEBIH DARI ATAU  KURANG DARI  **500000**  jadi hanya data  dengan jumlah lebih dari 50000 atau kurang dari  500000 yang akan ditampilkan (../selain dari nilai 500000 yang akan ditampilkan).
 
 ## Tantangan
 Untuk tantangan saya akan mengambil nama pemilik "baim" dengan cara memanggilnya dengan syarat nomor pelatnya yaitu "B 1611 QC" lalu hasilnya akan seperti berikut :
 
-![GAMBAR](GAMBARBASDAT/tantanganlogin.png)
+![GAMBAR](../GAMBARBASDAT/tantanganlogin.png)
 
 ## IN 
 STRUKTUR:
 ```MYSQL 
- select * from nama_tabel where nama_kolom in ("nama_data","nama_data");
+ select * from nama_tabel where nama_kolom in (../"nama_data","nama_data");
 ```
 
 CONTOH:
 ```MYSQL 
- select * from data_mobil where warna in ("silver","merah");
+ select * from data_mobil where warna in (../"silver","merah");
 ```
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/IN.png)
+![GAMBAR](../GAMBARBASDAT/IN.png)
 
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
@@ -218,26 +218,26 @@ ANALISIS:
 - **SILVER DAN MERAH** adalah nama data pada sebuah kolom.
 - **IN** adalah perintah query yang betugas menentukan seluruh data yang sesuai dengan kondisi ditentukan, menghindari penulisan berulang query dengan kondisi yang sama.
 
-KESIMPULAN: query diatas adalah perintah untuk menampilkan sebuah data dari tabel  data mobil yang bertujukan pada kolom *warna* dengan data yang hanya **silver dan merah**  jadi hanya data silver dan merah yang akan ditampilkan (tanpa menggunaka query dengan kondisi yang sama).
+KESIMPULAN: query diatas adalah perintah untuk menampilkan sebuah data dari tabel  data mobil yang bertujukan pada kolom *warna* dengan data yang hanya **silver dan merah**  jadi hanya data silver dan merah yang akan ditampilkan (../tanpa menggunaka query dengan kondisi yang sama).
 ## IN+AND
 
 STRUKTUR:
 ```MYSQL
  select * from data_mobil
-    -> where nama_kolom IN ("nama_data","nama_data")
+    -> where nama_kolom IN (../"nama_data","nama_data")
     -> AND nama_kolom = nama_data;
 ```
 
 CONTOH:
 ```mySQL
 	select * from data_mobil
-    -> where warna IN ("hitam","silver")
+    -> where warna IN (../"hitam","silver")
     -> AND harga_rental = 50000;
 ```
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/INAND.png)
+![GAMBAR](../GAMBARBASDAT/INAND.png)
 
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
@@ -258,20 +258,20 @@ KESIMPULAN:query di atas adalah perintah untuk menampilkan sebuah data yang berk
 STRUKTUR:
 ```MYSQL
  select * from data_mobil
-    -> where nama_kolom IN ("nama_data","nama_data")
+    -> where nama_kolom IN (../"nama_data","nama_data")
     -> OR nama_kolom = nama_data;
 ```
 
 CONTOH:
 ```mySQL
 	select * from data_mobil
-    -> where warna IN ("hitam","silver")
+    -> where warna IN (../"hitam","silver")
     -> OR harga_rental = 50000;
 ```
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/INOR.png)
+![GAMBAR](../GAMBARBASDAT/INOR.png)
 
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
@@ -292,32 +292,32 @@ KESIMPULAN:query di atas adalah perintah untuk menampilkan sebuah data yang berk
 STRUKTUR:
 ```MYSQL
  select * from nama_tabel
-    -> where nama_kolom in ("nama_data","nama_data")
+    -> where nama_kolom in (../"nama_data","nama_data")
     -> and nama_kolom > nama_data;
     ```
 
 ```mysqL
  select * from nama_tabel
-    -> where nama_kolom in ("nama_data","nama_data")
+    -> where nama_kolom in (../"nama_data","nama_data")
     -> and nama_kolom < nama_data;
 ```
 
 CONTOH:
 ```mySQL
 select * from data_mobil
-    -> where  warna in ("hitam","silver")
+    -> where  warna in (../"hitam","silver")
     -> and harga_rental > 50000;
 ```
 
 ```MYSQL
 select * from data_mobil
-    -> where  warna in ("hitam","silver")
+    -> where  warna in (../"hitam","silver")
     -> and harga_rental < 100000;
 ```
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/INOPERATOR.png)
+![GAMBAR](../GAMBARBASDAT/INOPERATOR.png)
 
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
@@ -353,7 +353,7 @@ CONTOH:
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/LIKEAWAL.png)
+![GAMBAR](../GAMBARBASDAT/LIKEAWAL.png)
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -377,7 +377,7 @@ CONTOH:
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/LIKEAKHIR.png)
+![GAMBAR](../GAMBARBASDAT/LIKEAKHIR.png)
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -401,7 +401,7 @@ CONTOH:
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/LIKEAWALAKHIR.png)
+![GAMBAR](../GAMBARBASDAT/LIKEAWALAKHIR.png)
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -425,7 +425,7 @@ select * from data_mobil
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/LIKEKARAKTER.png)
+![GAMBAR](../GAMBARBASDAT/LIKEKARAKTER.png)
 ANALISIS:
  - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -435,7 +435,7 @@ ANALISIS:
 - **LIKE** adalah perintah query yang betugas menentukan hasil berdasarkan pola teks tertentu.
 - **'I__'** adalah pola karakter tertentu yang ingin ditampilkan.
 KESIMPULAN:
-query adalah perintah untuk menampilkan data pada kolom pemilik yang berawalan i dan memiliki 2 karakter yang lainnya(hanya menampilkan nama pemilik dengan 3 kata dan berawalan i).
+query adalah perintah untuk menampilkan data pada kolom pemilik yang berawalan i dan memiliki 2 karakter yang lainnya(../hanya menampilkan nama pemilik dengan 3 kata dan berawalan i).
 
 5. KOMBINASI 
 STRUKTUR:
@@ -450,7 +450,7 @@ SELECT * FROM DATA_MOBIL
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/LIKEKOMBINASI.png)
+![GAMBAR](../GAMBARBASDAT/LIKEKOMBINASI.png)
 ANALISIS:
 - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -473,7 +473,7 @@ CONTOH:
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/NOTLIKE.png)
+![GAMBAR](../GAMBARBASDAT/NOTLIKE.png)
 ANALISIS:
  - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -497,7 +497,7 @@ CONTOH:
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/NULL.png)
+![GAMBAR](../GAMBARBASDAT/NULL.png)
 ANALISIS:
  - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -519,7 +519,7 @@ CONTOH:
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/NOTNULL.png)
+![GAMBAR](../GAMBARBASDAT/NOTNULL.png)
 ANALISIS:
  - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -544,7 +544,7 @@ CONTOH:
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/ASC.png)
+![GAMBAR](../GAMBARBASDAT/ASC.png)
 ANALISIS:
  - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -566,7 +566,7 @@ CONTOH:
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/DESC.png)
+![GAMBAR](../GAMBARBASDAT/DESC.png)
 ANALISIS:
  - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -588,7 +588,7 @@ CONTOH:
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/ASC.png)
+![GAMBAR](../GAMBARBASDAT/ASC.png)
 ANALISIS:
  - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -613,7 +613,7 @@ SELECT * FROM DATA_MOBIL WHERE WARNA="HITAM" ORDER BY HARGA_RENTAL ASC LIMIT 2;
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/LIMIT.png)
+![GAMBAR](../GAMBARBASDAT/LIMIT.png)
 ANALISIS:
  - **SELECT** adalah sebuah perintah query yang tugas memilih.
 - **FROM** adalah sebuah perintah query yang tugas nya untuk pemanggilan dari.
@@ -632,17 +632,17 @@ Query di atas adalah perintah untuk menampilkan tabel dengan data hitam pada kol
 
 STRUKTUR:
 ```MYSQL 
-SELECT DISTINCT(NAMA_KOLOM) FROM NAMA_TABEL;
+SELECT DISTINCT(../NAMA_KOLOM) FROM NAMA_TABEL;
 ```
 
 CONTOH:
 ```MYSQL
-SELECT DISTINCT(PEMILIK) FROM DATA_MOBIL;
+SELECT DISTINCT(../PEMILIK) FROM DATA_MOBIL;
 ```
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/DISTINCT.png)
+![GAMBAR](../GAMBARBASDAT/DISTINCT.png)
 
 ANALISIS:
 - **SELECT** adalah perintah query yang tugas nya memilih.
@@ -659,17 +659,17 @@ query di atas perintah ini akan mengembalikan setiap nilai yang berbeda dari kol
 1. CONCAT
 STRUKTUR:
 ```MYSQL
-SELECT CONCAT(NAMA_TABEL,NAMA_KOLOM) FROM NAMA_TABEL;
+SELECT CONCAT(../NAMA_TABEL,NAMA_KOLOM) FROM NAMA_TABEL;
 ```
 
 CONTOH:
 ```MYSQL
-SELECT CONCAT(PEMILIK,WARNA) FROM DATA_MOBIL;
+SELECT CONCAT(../PEMILIK,WARNA) FROM DATA_MOBIL;
 ```
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/CONCAT.png)
+![GAMBAR](../GAMBARBASDAT/CONCAT.png)
 ANALISIS:
 - **SELECT** adalah perintah query yang tugas nya memilih.
 - **CONCAT** adalah perintah untuk menggabungkan sebuah kolom untuk ditampilkan.
@@ -682,17 +682,17 @@ query di atas adalah perintah untuk menggabungkan kolom pemilik dan warna untuk 
 2. CONCAT_WS
 STRUKTUR:
 ```MYSQL
-SELECT CONCAT_WS ("PEMISAH",NAMA_KOLOM,NAMA_KOLOM,NAMA_KOLOM) FROM NAMA_TABEL;
+SELECT CONCAT_WS (../"PEMISAH",NAMA_KOLOM,NAMA_KOLOM,NAMA_KOLOM) FROM NAMA_TABEL;
 ```
 
 CONTOH:
 ```MYSQL
-SELECT CONCAT_WS ("-",NO_PLAT,NO_MESIN,ID_MOBIL) FROM DATA_MOBIL;
+SELECT CONCAT_WS (../"-",NO_PLAT,NO_MESIN,ID_MOBIL) FROM DATA_MOBIL;
 ```
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/CONCAT_WS.png)
+![GAMBAR](../GAMBARBASDAT/CONCAT_WS.png)
 ANALISIS:
 - **SELECT** adalah perintah query yang tugas nya memilih.
 - **CONCAT_WS** adalah perintah untuk menggabungkan nilai nilai sebuah kolom dan memiliki pemisah tertentu untuk ditampilkan.
@@ -706,17 +706,17 @@ query di atas adalah perintah untuk menggabungkan kolom no_plat,no_mesin,id_mobi
 3. AS
 STRUKTUR:
 ```MYSQL
-SELECT CONCAT_WS ("PENGHUBUNG",NAMA_KOLOM,NAMA_KOLOM) FROM NAMA_TABEL;
+SELECT CONCAT_WS (../"PENGHUBUNG",NAMA_KOLOM,NAMA_KOLOM) FROM NAMA_TABEL;
 ```
 
 CONTOH:
 ```MYSQL
-SELECT CONCAT_WS ("+",PEMILIK,PEMINJAM) FROM DATA_MOBIL;
+SELECT CONCAT_WS (../"+",PEMILIK,PEMINJAM) FROM DATA_MOBIL;
 ```
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/AS.png)
+![GAMBAR](../GAMBARBASDAT/AS.png)
 ANALISIS:
 - **SELECT** adalah perintah query yang tugas nya memilih.
 - **CONCAT_WS** adalah perintah untuk menggabungkan nilai nilai sebuah kolom dan memiliki pemisah tertentu untuk ditampilkan.
@@ -747,7 +747,7 @@ WHERE PEMILIK="IBRAHIM";
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/BUATTABELVIRTUAL.png)
+![GAMBAR](../GAMBARBASDAT/BUATTABELVIRTUAL.png)
 ANALISIS:
 - **SELECT** adalah perintah query yang tugas nya memilih.
 - **CREATE VIEW** adalah perintah untuk membuat sebuah tabel virtual
@@ -772,7 +772,7 @@ SELECT * FROM INFO_NO_PLAT;
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/TABELVIRTUAL.png)ANALISIS:
+![GAMBAR](../GAMBARBASDAT/TABELVIRTUAL.png)ANALISIS:
 - **SELECT** adalah perintah query yang tugas nya memilih.
 - **FROM** adalah perintah query dari.
 - **INFO_NO_PLAT** adalah sebuah nama tabel virtual yang telah dibuat
@@ -792,7 +792,7 @@ DROP VIEW INFO_NO_PLAT;
 
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/DROPVIRTUAL.png)
+![GAMBAR](../GAMBARBASDAT/DROPVIRTUAL.png)
 ANALISIS:
 	query di atas adalah perintah untuk menghapus tabel yang telah dibuat tadi.
 
@@ -808,7 +808,7 @@ create view
 ```
  Hasil
 
-![IMG](ASETBASISDATA/Pasted%20image%2020240416153428.png)
+![IMG](../ASETBASISDATA/Pasted%20image%2020240416153428.png)
 Analisis:
 Perintah query MySQL di atas membuat sebuah view dengan nama mobil_tanpa_peminjam. Berikut adalah analisisnya:
 -  *Pembuatan View*:
@@ -816,10 +816,10 @@ Perintah query MySQL di atas membuat sebuah view dengan nama mobil_tanpa_peminja
 -  *Data yang Dimuat*:
     View ini akan memuat data dari tabel mobil dengan hanya memilih kolom no_plat dan peminjam.
 -  *Kondisi Pemilihan Data*:
-    Data yang dimuat dalam view ini akan dipilih berdasarkan kondisi WHERE peminjam IS NULL. Artinya, hanya data mobil yang tidak memiliki peminjam (peminjamnya NULL) yang akan dimuat dalam view i
+    Data yang dimuat dalam view ini akan dipilih berdasarkan kondisi WHERE peminjam IS NULL. Artinya, hanya data mobil yang tidak memiliki peminjam (../peminjamnya NULL) yang akan dimuat dalam view i
  
 Kesimpulan:
-Detik`CREATE VIEW mobil_tanpa_peminjam AS SELECT no_plat, peminjam FROM mobil WHERE peminjam IS NULL;` membuat sebuah view baru yang menampilkan informasi tentang mobil-mobil yang saat ini tidak memiliki peminjam atau (null). Ini memungkinkan akses mudah dan terstruktur ke data tentang mobil-mobil yang tersedia untuk dipinjamkan, serta mendukung pemantauan dan analisis terkait status peminjaman mobil.
+Detik`CREATE VIEW mobil_tanpa_peminjam AS SELECT no_plat, peminjam FROM mobil WHERE peminjam IS NULL;` membuat sebuah view baru yang menampilkan informasi tentang mobil-mobil yang saat ini tidak memiliki peminjam atau (../null). Ini memungkinkan akses mudah dan terstruktur ke data tentang mobil-mobil yang tersedia untuk dipinjamkan, serta mendukung pemantauan dan analisis terkait status peminjaman mobil.
 ### Kedua
 Penjelasan:
 UPDATE mobil: adalah perintah untuk memperbarui data dalam tabel yang disebut mobil.
@@ -836,7 +836,7 @@ UPDATE mobil
 ```
 Hasil:
 
-![gambar](asetbs/soal2.png)
+![gambar](../asetbs/soal2.png)
 ### Kesimpulan
 Pernyataan `UPDATE` digunakan untuk memperbarui nilai kolom dalam tabel. Dalam pernyataan SQL ini, tabel yang diubah adalah "mobil".
 Pernyataan `SET peminjaman = NULL` berarti kita ingin mengubah nilai kolom "peminjaman" menjadi NULL untuk baris-baris yang memenuhi kondisi tertentu.
@@ -853,15 +853,15 @@ Dengan membuat view untuk kueri yang sering digunakan, Anda dapat menghindari pe
 1. MENGHITUNG TOTAL
 STRUKTUR:
 ```MYSQL
-SELECT SUM(NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
+SELECT SUM(../NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
 ```
 CONTOH:
 ```MYSQL
-SELECT SUM(HARGA_RENTAL) AS TOTAL_HARGA FROM DATA_MOBIL;
+SELECT SUM(../HARGA_RENTAL) AS TOTAL_HARGA FROM DATA_MOBIL;
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/SUM.png)
+![GAMBAR](../GAMBARBASDAT/SUM.png)
 ANALISIS:
 - **SELECT** adalah perintah untuk memilih suatu kolom 
 - **SUM** adalah perintah untuk menghitung semua total jumlah
@@ -874,15 +874,15 @@ query di atas adalah perintah untuk menghitung total data dari kolom harga renta
 2. MENGHITUNG JUMLAH BARIS
 STRUKTUR:
 ```MYSQL
-SELECT COUNT(NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
+SELECT COUNT(../NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
 ```
 CONTOH:
 ```MYSQL
-SELECT COUNT(PEMILIK) AS JUMLAH_PEMILIK FROM DATA_MOBIL;
+SELECT COUNT(../PEMILIK) AS JUMLAH_PEMILIK FROM DATA_MOBIL;
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/COUNT.png)
+![GAMBAR](../GAMBARBASDAT/COUNT.png)
 ANALISIS:
 - **SELECT** adalah perintah untuk memilih suatu kolom 
 - **COUNT** adalah perintah untuk menghitung semua jumlah baris.
@@ -896,15 +896,15 @@ query di atas adalah perintah untuk menghitung jumlah data pada kolom pemilik.
 3. MENGHITUNG NILAI TERENDAH
 STRUKTUR:
 ```MYSQL
-SELECT MIN(NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
+SELECT MIN(../NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
 ```
 CONTOH:
 ```MYSQL
-SELECT MIN(HARGA_RENTAL) AS MINIMUM FROM DATA_MOBIL;
+SELECT MIN(../HARGA_RENTAL) AS MINIMUM FROM DATA_MOBIL;
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/MIN.png)
+![GAMBAR](../GAMBARBASDAT/MIN.png)
 ANALISIS:
 - **SELECT** adalah perintah untuk memilih suatu kolom 
 - **MIN** adalah perintah untuk menghitung jumlah data yang paling terkecil.
@@ -917,15 +917,15 @@ query di atas adalah perintah untuk menghitung jumlah data  terkecil dari kolom 
 4. MENGHITUNG NILAI TERTINGGI 
 STRUKTUR:
 ```MYSQL
-SELECT MAX(NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
+SELECT MAX(../NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
 ```
 CONTOH:
 ```MYSQL
-SELECT MAX(HARGA_RENTAL) AS MAXIMUM FROM DATA_MOBIL;
+SELECT MAX(../HARGA_RENTAL) AS MAXIMUM FROM DATA_MOBIL;
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/MAX.png)
+![GAMBAR](../GAMBARBASDAT/MAX.png)
 ANALISIS:
 - **SELECT** adalah perintah untuk memilih suatu kolom 
 - **MAX** adalah perintah untuk menghitung data yang paling tinggi.
@@ -938,15 +938,15 @@ query di atas adalah perintah untuk menghitung jumlah data tertinggi dari kolom 
 5. MENAMPILKAN NILAI RATA RATA
 STRUKTUR:
 ```MYSQL
-SELECT AVG(NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
+SELECT AVG(../NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
 ```
 CONTOH:
 ```MYSQL
-SELECT AVG(HARGA_RENTAL) AS RERATA FROM DATA_MOBIL;
+SELECT AVG(../HARGA_RENTAL) AS RERATA FROM DATA_MOBIL;
 ```
 HASIL:
 
-![GAMBAR](GAMBARBASDAT/SUM.png)
+![GAMBAR](../GAMBARBASDAT/SUM.png)
 ANALISIS:
 - **SELECT** adalah perintah untuk memilih suatu kolom 
 - **AVG** adalah perintah untuk menghitung jumlah rata rata

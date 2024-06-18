@@ -42,7 +42,7 @@ ____
 > > >Apapun tag berada di antara tag pembuka `<body` sampai tag penutup `</body>` akan tampil di web browser
 
 ___
-![Result|500](Screenshot%20(1).png)
+![Result|500](../asethtml/Screenshot%20(1).png)
 ____
 # Anatomi Elemen HTML
 ### ***Tag pembuka dan Tag penutup
@@ -75,7 +75,7 @@ ___
 > > `</a>`merupakan tag penutup
 
 - 	***Result***
-![Result|500](2024-01-16%20(1).png)
+![Result|500](../asethtml/2024-01-16%20(1).png)
 ___
 # Tag Dasar
 ## _Heading_
@@ -98,7 +98,7 @@ ___
 - `<h1>` Untuk membuat judul atau heading `</h1>` 
 	 Merupakan Tag HTML yang digunakan untuk menunjukkan bagian penting pada halaman website dan memiliki enam tingkatan yang berurutan yaitu H1 hingga H6. 
 - 	 ***Result***
-![image|500x300](heading.png)
+![image|500x300](../asethtml/heading.png)
 ___
 ## _Paragraf_
 ```html
@@ -119,7 +119,7 @@ ___
 	`<u>` Untuk garis bawa
 	`<br>`Untuk baris baru
 - ***Result***
-![paragraf|500x300](textp.png)
+![paragraf|500x300](../asethtml/textp.png)
 ___
 ## _Atribut Align_
 -	di tag paragraf juga memiliki beberapa atribut yaitu align atribut ini berfungsi sebagai mengatur  perataan teks atau paragraf seperti 
@@ -143,7 +143,7 @@ ___
 </html>
 ```
 - ***Result***
-![image|500x300](align.png)
+![image|500x300](../asethtml/align.png)
 ___
 ## _Komentar_
 - HTML juga mempunyai tag khusus untuk komentar untuk membuat komentar di html kita menggunakan awalan  "`<!--`" penutup " `-->` ".
@@ -152,7 +152,7 @@ ___
 <p>ini bukan komentar, dan akan tampil di browser</p>
 ```
  - ***Result***
-![image|500x300](komentar.png)
+![image|500x300](../asethtml/komentar.png)
 ___
 ## _List_
 - list adalah fungsi di html yang di gunakan untuk menampilkan daftar dari sesuatu. Dalam HTML , tag list terdiri dari 2 jenis, `<ol>` ordered list (berurutan) dan `<ul>` unordered list (tidak berurutan). Ordered list yang akan menampikan angka atau huruf, sedangkan unordered list yang akan menampilkan simbol-simbol seperti simbol bulat atau kotak
@@ -177,7 +177,7 @@ ___
 </html>
 ```
 - ***Result***
-![image|500x300](list.png)
+![image|500x300](../asethtml/list.png)
 ___
 ## _Link_
 - link dapat ditemukan di hampir semua halaman web. link/tautan memungkinkan sebuah teks yang ketika di klik akan berpindah ke halaman lainnya. HTML menggunakan tag `<a>` untuk keperluan ini. link ditulis dengan `<a>` yang merupakan singkatan cari anchor(jangkar).
@@ -189,7 +189,7 @@ ___
 <a herf="halaman_selanjutnya.html" target="_blank">klik disini untuk ke halamann selanjutnya
 ```
 - ***Result***
-![image|500x300](asethtml/link.png)
+![image|500x300](../asethtml/link.png)
 ___
 ## `Multimedia`
 ## **Gambar**
@@ -208,7 +208,7 @@ ___
 </html>
 ```
 - ***Result***
-![image|500x300](dogy.png)
+![image|500x300](../asethtml/dogy.png)
 ___
 ## _Video_
 -
@@ -219,7 +219,7 @@ ___
 <video src="Aset/keris.mp4" controls></video>
 ```
 - ***Result***
-![image|500x300](eternals.png)
+![image|500x300](../asethtml/eternals.png)
 ___
 ## _Audio_
 - 
@@ -232,7 +232,7 @@ ___
 <audio src="Aset/Audio.mp3" controls></audio>
 ```
 - ***Result***
-![image|500x300](audio.png)
+![image|500x300](../asethtml/audio.png)
 ___
 ## **Halaman web lain**
  - Elemen `<iframe` dapat di gunakan untuk menampilkan halaman website lain dalam suatu website, atau menampilkan dokumen HTMLlain dalam sebuah website. Mudahnya bisa di bilang websute dalam website.
@@ -245,7 +245,7 @@ ___
 <iframe src="https://www.smkn7makassar.sch.id/" width="600" height="500"></iframe>
 ```
 - ***Result***
-![image|500x300](iframe.png)
+![image|500x300](../asethtml/iframe.png)
 ___
 ## `Table`
 - Tabel dalam HTML didefinisikan dengan tag `<table>`
@@ -302,7 +302,7 @@ ___
     </table>
 ```
 - ***Result***
-![image|500x300](tabel.png)
+![image|500x300](../asethtml/tabel.png)
 ___
 >[! tip]- Info
 >Perhatikan pada konten elemen `<td>` yang berisi `Hayril`. hanya terdapat satu elemen `<td>` disana. Hal ini dikarenakan konten elemen `<td` sebelumnya yaitu `SMK 7 MKS` dan `-` pada kata `BomBom` mengandung atribut `rowspan` dengan nilai `2` yang secara otomatis mengisi data di bawahnya yakni data `Hayril`. Nilai `2` menunjukkan bahwa ada dua baris  yang digabungkan menjadi satu.
@@ -458,7 +458,7 @@ ___
 </form>
 ```
 - ***Result***
-![image|](asethtml/button.png)
+![image|](../asethtml/button.png)
  - Penjelasan
 	- `name` - digunakan sebagai nama variabel yang akan diproses oleh web server (contoh menggunakan PHP)
 	- `required` - digunakan untuk memastikan bahwa pengguna harus memasukkan nilai pada input tersebut sebelum dapat melakukan proses submit formulir
@@ -500,4 +500,4 @@ ___
 </html>
 ```
 - Result
-![image](asethtml/span.png)
+![image](../asethtml/span.png)
