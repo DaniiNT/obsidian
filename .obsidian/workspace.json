@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
+                "file": "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,22 +77,6 @@
             }
           },
           {
-            "id": "55fb13c4052fcece",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "58c4aae0b0ff2486",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
-          },
-          {
             "id": "659d0f19d28e586d",
             "type": "leaf",
             "state": {
@@ -100,8 +84,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
+                "file": "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
+                "file": "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md"
+                "file": "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md"
               }
             }
           },
@@ -186,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,10 +186,19 @@
   },
   "active": "8211de6a54cd3bc7",
   "lastOpenFiles": [
-    "Belajar HTML/Pengenalan HTML.md",
-    "Basis Data/Pengenalan Basis Data+Data base.md",
     "Basis Data/Alter.md",
-    "Basis Data/SELECT LANJUTAN.md",
+    "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
+    "asetbs/by7.png",
+    "asetbs/by6.png",
+    "asetbs/by5.png",
+    "asetbs/by4.png",
+    "asetbs/by3.png",
+    "asetbs/by2.png",
+    "asetbs/by1.png",
+    "by1.png",
+    "Basis Data/Pengenalan Basis Data+Data base.md",
+    "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
+    "Belajar HTML/Pengenalan HTML.md",
     "Spaces/Home",
     "Spaces",
     "Basis Data/Basis Data.md",
@@ -218,17 +209,8 @@
     "Belajar PHP/Pengenalan PHP.md",
     "Belajarr CSS/Eksplorasi CSS....md",
     "Belajarr CSS/Pengenalan CSS nih.md",
-    "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
     "assetss/res-2.png",
-    "assetss/responsive-1.png",
-    "assetss/res-3.png",
     "assetss",
-    "assets/laravel-7.png",
-    "assets/btc-95.png",
-    "assets/btc-94.png",
-    "assets/btc-93.png",
-    "assets/btc-92.png",
-    "assets/btc-91.png",
     "assets",
     "Belajar HTML/Belajar HTML.md",
     "Random",
@@ -249,7 +231,6 @@
     "Random/PEMBELAJARAN 5.md",
     "Basis Data/Select lanjutan(2).md",
     "Basis Data/SELECT LANJUTAN..md",
-    "ASETBASISDATA/Catatan Alter.md",
     "Untitled.canvas"
   ]
 }

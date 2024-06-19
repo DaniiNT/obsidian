@@ -187,7 +187,7 @@ ANALISIS:
 - **500000** adalah nama data pada sebuah kolom.
 - **<>** adalah perintah query yang betugas menentukan syarat *kurang dari atau lebih dari *.
 
-KESIMPULAN: query diatas adalah perintah untuk menampilkan sebuah data dari tabel mobil yang bertujukan pada kolom *harga rental* dengan data *LEBIH DARI ATAU  KURANG DARI  **500000**  jadi hanya data  dengan jumlah lebih dari 50000 atau kurang dari  500000 yang akan ditampilkan (../selain dari nilai 500000 yang akan ditampilkan).
+KESIMPULAN: query diatas adalah perintah untuk menampilkan sebuah data dari tabel mobil yang bertujukan pada kolom *harga rental* dengan data *LEBIH DARI ATAU  KURANG DARI  **500000**  jadi hanya data  dengan jumlah lebih dari 50000 atau kurang dari  500000 yang akan ditampilkan ( selain dari nilai 500000 yang akan ditampilkan).
 
 ## Tantangan
 Untuk tantangan saya akan mengambil nama pemilik "baim" dengan cara memanggilnya dengan syarat nomor pelatnya yaitu "B 1611 QC" lalu hasilnya akan seperti berikut :
@@ -197,12 +197,12 @@ Untuk tantangan saya akan mengambil nama pemilik "baim" dengan cara memanggilnya
 ## IN 
 STRUKTUR:
 ```MYSQL 
- select * from nama_tabel where nama_kolom in (../"nama_data","nama_data");
+ select * from nama_tabel where nama_kolom in ( "nama_data","nama_data");
 ```
 
 CONTOH:
 ```MYSQL 
- select * from data_mobil where warna in (../"silver","merah");
+ select * from data_mobil where warna in ( "silver","merah");
 ```
 
 HASIL:
@@ -218,20 +218,20 @@ ANALISIS:
 - **SILVER DAN MERAH** adalah nama data pada sebuah kolom.
 - **IN** adalah perintah query yang betugas menentukan seluruh data yang sesuai dengan kondisi ditentukan, menghindari penulisan berulang query dengan kondisi yang sama.
 
-KESIMPULAN: query diatas adalah perintah untuk menampilkan sebuah data dari tabel  data mobil yang bertujukan pada kolom *warna* dengan data yang hanya **silver dan merah**  jadi hanya data silver dan merah yang akan ditampilkan (../tanpa menggunaka query dengan kondisi yang sama).
+KESIMPULAN: query diatas adalah perintah untuk menampilkan sebuah data dari tabel  data mobil yang bertujukan pada kolom *warna* dengan data yang hanya **silver dan merah**  jadi hanya data silver dan merah yang akan ditampilkan ( tanpa menggunaka query dengan kondisi yang sama).
 ## IN+AND
 
 STRUKTUR:
 ```MYSQL
  select * from data_mobil
-    -> where nama_kolom IN (../"nama_data","nama_data")
+    -> where nama_kolom IN ( "nama_data","nama_data")
     -> AND nama_kolom = nama_data;
 ```
 
 CONTOH:
 ```mySQL
 	select * from data_mobil
-    -> where warna IN (../"hitam","silver")
+    -> where warna IN ( "hitam","silver")
     -> AND harga_rental = 50000;
 ```
 
@@ -258,14 +258,14 @@ KESIMPULAN:query di atas adalah perintah untuk menampilkan sebuah data yang berk
 STRUKTUR:
 ```MYSQL
  select * from data_mobil
-    -> where nama_kolom IN (../"nama_data","nama_data")
+    -> where nama_kolom IN ( "nama_data","nama_data")
     -> OR nama_kolom = nama_data;
 ```
 
 CONTOH:
 ```mySQL
 	select * from data_mobil
-    -> where warna IN (../"hitam","silver")
+    -> where warna IN ( "hitam","silver")
     -> OR harga_rental = 50000;
 ```
 
@@ -292,26 +292,26 @@ KESIMPULAN:query di atas adalah perintah untuk menampilkan sebuah data yang berk
 STRUKTUR:
 ```MYSQL
  select * from nama_tabel
-    -> where nama_kolom in (../"nama_data","nama_data")
+    -> where nama_kolom in ( "nama_data","nama_data")
     -> and nama_kolom > nama_data;
     ```
 
 ```mysqL
  select * from nama_tabel
-    -> where nama_kolom in (../"nama_data","nama_data")
+    -> where nama_kolom in ( "nama_data","nama_data")
     -> and nama_kolom < nama_data;
 ```
 
 CONTOH:
 ```mySQL
 select * from data_mobil
-    -> where  warna in (../"hitam","silver")
+    -> where  warna in ( "hitam","silver")
     -> and harga_rental > 50000;
 ```
 
 ```MYSQL
 select * from data_mobil
-    -> where  warna in (../"hitam","silver")
+    -> where  warna in ( "hitam","silver")
     -> and harga_rental < 100000;
 ```
 
@@ -435,7 +435,7 @@ ANALISIS:
 - **LIKE** adalah perintah query yang betugas menentukan hasil berdasarkan pola teks tertentu.
 - **'I__'** adalah pola karakter tertentu yang ingin ditampilkan.
 KESIMPULAN:
-query adalah perintah untuk menampilkan data pada kolom pemilik yang berawalan i dan memiliki 2 karakter yang lainnya(../hanya menampilkan nama pemilik dengan 3 kata dan berawalan i).
+query adalah perintah untuk menampilkan data pada kolom pemilik yang berawalan i dan memiliki 2 karakter yang lainnya( hanya menampilkan nama pemilik dengan 3 kata dan berawalan i).
 
 5. KOMBINASI 
 STRUKTUR:
@@ -632,12 +632,12 @@ Query di atas adalah perintah untuk menampilkan tabel dengan data hitam pada kol
 
 STRUKTUR:
 ```MYSQL 
-SELECT DISTINCT(../NAMA_KOLOM) FROM NAMA_TABEL;
+SELECT DISTINCT( NAMA_KOLOM) FROM NAMA_TABEL;
 ```
 
 CONTOH:
 ```MYSQL
-SELECT DISTINCT(../PEMILIK) FROM DATA_MOBIL;
+SELECT DISTINCT( PEMILIK) FROM DATA_MOBIL;
 ```
 
 HASIL:
@@ -659,12 +659,12 @@ query di atas perintah ini akan mengembalikan setiap nilai yang berbeda dari kol
 1. CONCAT
 STRUKTUR:
 ```MYSQL
-SELECT CONCAT(../NAMA_TABEL,NAMA_KOLOM) FROM NAMA_TABEL;
+SELECT CONCAT( NAMA_TABEL,NAMA_KOLOM) FROM NAMA_TABEL;
 ```
 
 CONTOH:
 ```MYSQL
-SELECT CONCAT(../PEMILIK,WARNA) FROM DATA_MOBIL;
+SELECT CONCAT( PEMILIK,WARNA) FROM DATA_MOBIL;
 ```
 
 HASIL:
@@ -682,12 +682,12 @@ query di atas adalah perintah untuk menggabungkan kolom pemilik dan warna untuk 
 2. CONCAT_WS
 STRUKTUR:
 ```MYSQL
-SELECT CONCAT_WS (../"PEMISAH",NAMA_KOLOM,NAMA_KOLOM,NAMA_KOLOM) FROM NAMA_TABEL;
+SELECT CONCAT_WS ( "PEMISAH",NAMA_KOLOM,NAMA_KOLOM,NAMA_KOLOM) FROM NAMA_TABEL;
 ```
 
 CONTOH:
 ```MYSQL
-SELECT CONCAT_WS (../"-",NO_PLAT,NO_MESIN,ID_MOBIL) FROM DATA_MOBIL;
+SELECT CONCAT_WS ( "-",NO_PLAT,NO_MESIN,ID_MOBIL) FROM DATA_MOBIL;
 ```
 
 HASIL:
@@ -706,12 +706,12 @@ query di atas adalah perintah untuk menggabungkan kolom no_plat,no_mesin,id_mobi
 3. AS
 STRUKTUR:
 ```MYSQL
-SELECT CONCAT_WS (../"PENGHUBUNG",NAMA_KOLOM,NAMA_KOLOM) FROM NAMA_TABEL;
+SELECT CONCAT_WS ( "PENGHUBUNG",NAMA_KOLOM,NAMA_KOLOM) FROM NAMA_TABEL;
 ```
 
 CONTOH:
 ```MYSQL
-SELECT CONCAT_WS (../"+",PEMILIK,PEMINJAM) FROM DATA_MOBIL;
+SELECT CONCAT_WS ( "+",PEMILIK,PEMINJAM) FROM DATA_MOBIL;
 ```
 
 HASIL:
@@ -816,10 +816,10 @@ Perintah query MySQL di atas membuat sebuah view dengan nama mobil_tanpa_peminja
 -  *Data yang Dimuat*:
     View ini akan memuat data dari tabel mobil dengan hanya memilih kolom no_plat dan peminjam.
 -  *Kondisi Pemilihan Data*:
-    Data yang dimuat dalam view ini akan dipilih berdasarkan kondisi WHERE peminjam IS NULL. Artinya, hanya data mobil yang tidak memiliki peminjam (../peminjamnya NULL) yang akan dimuat dalam view i
+    Data yang dimuat dalam view ini akan dipilih berdasarkan kondisi WHERE peminjam IS NULL. Artinya, hanya data mobil yang tidak memiliki peminjam ( peminjamnya NULL) yang akan dimuat dalam view i
  
 Kesimpulan:
-Detik`CREATE VIEW mobil_tanpa_peminjam AS SELECT no_plat, peminjam FROM mobil WHERE peminjam IS NULL;` membuat sebuah view baru yang menampilkan informasi tentang mobil-mobil yang saat ini tidak memiliki peminjam atau (../null). Ini memungkinkan akses mudah dan terstruktur ke data tentang mobil-mobil yang tersedia untuk dipinjamkan, serta mendukung pemantauan dan analisis terkait status peminjaman mobil.
+Detik`CREATE VIEW mobil_tanpa_peminjam AS SELECT no_plat, peminjam FROM mobil WHERE peminjam IS NULL;` membuat sebuah view baru yang menampilkan informasi tentang mobil-mobil yang saat ini tidak memiliki peminjam atau ( null). Ini memungkinkan akses mudah dan terstruktur ke data tentang mobil-mobil yang tersedia untuk dipinjamkan, serta mendukung pemantauan dan analisis terkait status peminjaman mobil.
 ### Kedua
 Penjelasan:
 UPDATE mobil: adalah perintah untuk memperbarui data dalam tabel yang disebut mobil.
@@ -853,11 +853,11 @@ Dengan membuat view untuk kueri yang sering digunakan, Anda dapat menghindari pe
 1. MENGHITUNG TOTAL
 STRUKTUR:
 ```MYSQL
-SELECT SUM(../NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
+SELECT SUM( NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
 ```
 CONTOH:
 ```MYSQL
-SELECT SUM(../HARGA_RENTAL) AS TOTAL_HARGA FROM DATA_MOBIL;
+SELECT SUM( HARGA_RENTAL) AS TOTAL_HARGA FROM DATA_MOBIL;
 ```
 HASIL:
 
@@ -874,11 +874,11 @@ query di atas adalah perintah untuk menghitung total data dari kolom harga renta
 2. MENGHITUNG JUMLAH BARIS
 STRUKTUR:
 ```MYSQL
-SELECT COUNT(../NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
+SELECT COUNT( NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
 ```
 CONTOH:
 ```MYSQL
-SELECT COUNT(../PEMILIK) AS JUMLAH_PEMILIK FROM DATA_MOBIL;
+SELECT COUNT( PEMILIK) AS JUMLAH_PEMILIK FROM DATA_MOBIL;
 ```
 HASIL:
 
@@ -896,11 +896,11 @@ query di atas adalah perintah untuk menghitung jumlah data pada kolom pemilik.
 3. MENGHITUNG NILAI TERENDAH
 STRUKTUR:
 ```MYSQL
-SELECT MIN(../NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
+SELECT MIN( NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
 ```
 CONTOH:
 ```MYSQL
-SELECT MIN(../HARGA_RENTAL) AS MINIMUM FROM DATA_MOBIL;
+SELECT MIN( HARGA_RENTAL) AS MINIMUM FROM DATA_MOBIL;
 ```
 HASIL:
 
@@ -917,11 +917,11 @@ query di atas adalah perintah untuk menghitung jumlah data  terkecil dari kolom 
 4. MENGHITUNG NILAI TERTINGGI 
 STRUKTUR:
 ```MYSQL
-SELECT MAX(../NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
+SELECT MAX( NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
 ```
 CONTOH:
 ```MYSQL
-SELECT MAX(../HARGA_RENTAL) AS MAXIMUM FROM DATA_MOBIL;
+SELECT MAX( HARGA_RENTAL) AS MAXIMUM FROM DATA_MOBIL;
 ```
 HASIL:
 
@@ -938,11 +938,11 @@ query di atas adalah perintah untuk menghitung jumlah data tertinggi dari kolom 
 5. MENAMPILKAN NILAI RATA RATA
 STRUKTUR:
 ```MYSQL
-SELECT AVG(../NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
+SELECT AVG( NAMA_KOLOM) AS NAMA_KOLOM FROM NAMA_TABEL
 ```
 CONTOH:
 ```MYSQL
-SELECT AVG(../HARGA_RENTAL) AS RERATA FROM DATA_MOBIL;
+SELECT AVG( HARGA_RENTAL) AS RERATA FROM DATA_MOBIL;
 ```
 HASIL:
 
@@ -956,3 +956,143 @@ ANALISIS:
 - **DATA_MOBIL** adalah sebuah nama tabel.
 KESIMPULAN:
 query di atas adalah perintah untuk menghitung rata rata jumlah data dari kolom harga rental dan ditampilkan dengan kolom baru yaitu RERATA.
+
+# Group BY and Having
+## 1.tampilkan jumlah data mobil dan kelompok kan berdasarkan warna nya sesuai dengan tabel mobil kalian.
+### Struktur Query
+```sql
+select data 2,COUNT(Data 1) AS nama_sementara FROM nama_tabel GROUP BY data 2;
+```
+### Query
+```sql
+SELECT warna,
+COUNT(id_mobil) AS jumlah_warna 
+FROM mobil GROUP BY warna;
+```
+### Hasil
+
+![Gambar1](../asetbs/by1.png)
+___
+### Analisis 
+`SELECT warna` nama kolom yang akan diambil dari tabel `mobil`.`COUNT(id_mobil) AS jumlah_warna`,`COUNT` digunakan untuk menghitung jumlah baris oleh `GROUP BY`. Di sini, `COUNT(id_mobil)` menghitung jumlah mobil untuk setiap warna,`jumlah_warna`.`FROM mobil` ini adalah nama tabel yang akan digunakan.`GROUP BY warna; `digunakan untuk mengelompokkan hasil query berdasarkan nilai dalam kolom warna.  semua baris yang memiliki warna yang sama akan dikelompokkan, dan`COUNT(id_mobil)` akan dihitung.
+### kesimpulan 
+Kesimpulannya,Query ini menghitung jumlah mobil berdasarkan warna dalam tabel `data_mobil`.
+## 2.berdasarkan query ini tampilkan yang lebih BESAR dari 3 atau sama dengan 3 pemilik mobil nya
+
+### Struktur Query
+```sql
+select data 3,COUNT(id_mobil) AS nama_sementara from nama_tabel GROUP BY data 3 HAVING COUNT(data 1) >= 3;
+```
+### Query
+```sql
+select pemilik,COUNT(id_mobil) AS jumlah_mobil from mobil GROUP BY pemilik HAVING COUNT(id_mobil) >= 3;
+```
+### Hasil
+
+![gambar2](../asetbs/by2.png)
+___
+### Analisis 
+`select pemilik` adalah nama kolomnya yang digunakan,`count(id_mobil)` digunakan untuk menghitung jumlah baris yang memiliki nilai pada kolom `id_mobil`.`AS jumlah_mobil` Alias yang memberikan untuk nama sementara pada hasil dari `count(id_mobil)` jadi hasilnya akan diberi nama `jumlah_mobil`.`from mobil` adalah nama tabelnya.`GROUP BY pemilik` kolom yang digunakan untuk di kelompokkan.`HAVING COUNT(id_mobil) >= 3` ,`HAVING` digunakan untuk menetapkan kondisi pada hasil pengelompokan `GROUP BY`.`(id_mobil) >= 3` Kondisi yang harus dipenuh. Hanya grup dengan jumlah `id_mobil` yang dihitung lebih besar atau sama dengan 3 yang akan ditampilkan dalam hasil akhir.
+### kesimpulan 
+Kesimpulannya, query SQL ini digunakan untuk menemukan pemilik yang memiliki setidaknya tiga mobil.
+## 3.tampilkan smua pemilik dengan jumlah mobilnya yang memiliki atau sama dengan 3 mobil
+### Struktur query 
+```sql
+SELECT nama_data,COUNT(nama_data) AS nama_sementara FROM nama_tabel GROUP BY nama_data;
+```
+### Query
+```sql
+SELECT pemilik, 
+COUNT(id_mobil) AS jumlah_mobil 
+FROM mobil GROUP BY pemilik;
+```
+### Hasil
+
+![gambar3](../asetbs/by3.png)
+___
+### Analisis 
+`SELECT pemilik` ini adalah nama kolomnya,`count(id_mobil)`digunakan untuk menghitung jumlah baris dalam kolom `id_mobil` untuk setiap grup. Fungsi ini menghitung berapa banyak mobil yang dimiliki oleh setiap `pemilik`.`AS jumlah_mobil` memberikan nama sementara pada hasil dari `COUNT(id_mobil)`, sehingga hasilnya akan diberi nama `JUMLAH_MOBIL`.`FROM mobil` ini adalah nama tabelnya.`GROUP BY pemilik` digunakan untuk mengelompokkan hasil query satu atau lebih kolom `pemilik`.
+### kesimpulan 
+Kesimpulannya,Query ini mengelompokkan data berdasarkan pemilik mobil dan menghitung jumlah mobil yang dimiliki setiap `pemilik`.
+## 4.berdasarkan query yang ada pada praktikum 5 bagian 7 tampilkan data pada table mobil dengan mengelompokkan berdasarkan pemiliknya.hitung menggunakan sum total pendapatan pemilik berdasarkan harga rental
+
+### Struktur Query
+```sql
+select data 3,SUM(data 5) AS nama_sementara from nama_tabel GROUP BY data 3;
+```
+### Query
+```sql
+SELECT pemilik,
+SUM(harga_rental) AS total_pendapatan
+FROM mobil GROUP BY pemilik;
+```
+### Hasil
+
+![gambar4](../asetbs/by4.png)
+___
+### Analisis 
+`Select pemilik` ini adalah nama kolomnya,`SUM(harga_rental)` digunakan untuk menghitung total nilai dari kolom `harga_rental` untuk setiap grup `pemilik`.`AS total_pendapatan` memberikan nama sementara pada hasil dari `SUM(harga_rental)`, sehingga hasilnya akan diberi nama `total_pendapatan`.`FROM mobil` adalah nama tabelnya,`GROUP BY pemilik` memastikan bahwa hasil query dikelompokkan berdasarkan pemilik mobil, sehingga setiap baris hasil akan menunjukkan pemilik serta total pendapatan rental mereka.
+### kesimpulan 
+Kesimpulannya,Query ini memberikan informasi tentang total pendapatan rental mobil yang diperoleh oleh masing-masing pemilik mobil.
+## 5. Berdasarkan praktikum 5 query no 8 tampilkan jumlah pemasukan pemilik berdasarkan harga rental kelompokkan berdasarkan pemiliknya dan seleksi yang total pemasukannya atau harga rentalnya mencapai lebih besar atau sama dengan 300k
+
+### Struktur Query
+```sql
+select data_mobil,SUM(data_mobil) AS nama_sementara from nama_tabel GROUP BY data_mobil HAVING SUM(data_mobil) >= 300000;
+```
+### Query
+```sql
+SELECT pemilik,
+SUM(harga_rental) AS total_pemasukan
+FROM mobil GROUP BY pemilik
+HAVING SUM(harga_rental) >= 300000;
+```
+### Hasil
+
+![gambar5](../asetbs/by5.png)
+___
+### Analisis 
+`SELECT pemilik` nama kolom yang akan di gunakan,`SUM(harga_rental)` digunakan untuk menghitung total nilai dari kolom `harga_rental` untuk setiap grup pemilik. Fungsi ini menjumlahkan pendapatan dari rental mobil untuk setiap pemilik.`AS total_pemasukan` memberikan nama sementara pada hasil dari `SUM(harga_rental)`, sehingga hasilnya akan diberi nama `total_pemasukan`.`From mobil` ini adalah nama tabelnya.`GROUP BY pemilik` pengelompokan Setiap nilai unik di kolom pemilik akan membentuk satu grup.`HAVING SUM(harga_rental) >= 300000` Mengelompokkan data berdasarkan kolom pemilik, sehingga setiap pemilik membentuk satu grup serta,menyertakan pemilik yang memiliki total pendapatan dari rental mobil sebesar `300,000` atau lebih.
+### kesimpulan 
+Kesimpulannya,Query ini digunakan untuk mencari pemilik mobil yang memiliki total pendapatan dari rental mobil sebesar 300,000 atau lebih. 
+## 6. Berdasarkan praktikum 6 no 12 tampilkan rata rata pemasukan pemilik mobil kelompokkan berdasarkan pemiliknya
+### Struktur Query
+```sql
+select nama_data,AVG(nama_data) AS nama_sementara from nama_tabel GROUP BY nama_data;
+```
+### Query 
+```sql
+SELECT pemilik,
+AVG(harga_rental) AS total_pemasukan
+FROM mobil GROUP BY pemilik;
+```
+### Hasil
+
+![gambar6](../asetbs/by6.png)
+___
+### Analisis 
+`SELECT pemilik` nama kolomnya,`AVG(harga_rental)` menghitung nilai rata-rata dari kolom harga_rental untuk setiap kolom pemilik.`AS total_pemasukan` memberikan nama sementara pada hasil dari `AVG(harga_rental)`, sehingga hasilnya akan diberi nama `rata_rata_pendapatan`.`from mobil` nama tabelnya,`GROUP BY pemilik` `GROUP BY` digunakan untuk mengelompokkan data berdasarkan kolom `pemilik`. Setiap nilai unik di kolom pemilik akan membentuk satu grup.
+Data akan dikelompokkan berdasarkan pemilik mobil, sehingga rata-rata `harga_rental` dihitung untuk setiap `pemilik`.
+### kesimpulan 
+Kesimpulannya,Query ini digunakan untuk menghitung rata-rata pendapatan dari rental mobil untuk setiap pemilik
+## 7. Berdasarkan praktikum 5 no 16 tampilkan pemasukan  terbesar dan pemasukan terkecil kelompokkan berdasarkan pemiliknya dan seleksi data pemilik yg tampil atau memiliki jumlah mobil lebih besar dari 1.
+
+### Struktur
+```sql
+select nama_data,MAX(nama_data) AS nama_sementara,MIN(nama_data) AS nama_sementara from nama_tabel GROUP BY nama_data HAVING COUNT(nama_data) >= 1;
+```
+### Query
+```sql
+SELECT pemilik, 
+MAX(harga_rental) AS pemasukan_terbesar, 
+MIN(harga_rental) AS pemasukan_terkecil
+FROM mobil GROUP BY pemilik
+HAVING COUNT(id_mobil) > 1;
+```
+### Hasil
+
+![gambar7](../asetbs/by7.png)
+### Analisis 
+`SELECT pemilik` nama kolomnya,`max(harga_rental)` menghitung pendapatan terbesar dari rental mobil untuk setiap pemilik.`AS pemasukan_terbesar` memberikan nama sementara pada hasil dari `MAX(harga_rental)`,`MIN(harga_rental)` 
+### kesimpulan 
+Kesimpulannya,kita bisa melihat daftar pemilik, pemasukan terbesar,dan pemasukan terkecil.
