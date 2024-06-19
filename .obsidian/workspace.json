@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
+                "file": "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,8 +84,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
+                "file": "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
+                "file": "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md"
+                "file": "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md"
               }
             }
           },
@@ -179,14 +178,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "notion-like-tables:Create loom": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "8211de6a54cd3bc7",
   "lastOpenFiles": [
+    "Praktikum/Praktikum.md",
+    "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
     "asetbs/r9.png",
     "asetbs/r8.png",
     "asetbs/r7.png",
@@ -196,10 +194,8 @@
     "asetbs/r2.png",
     "asetbs/r1.png",
     "Basis Data/Alter.md",
-    "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
     "asetbs/by7.png",
     "asetbs/by6.png",
-    "asetbs/by5.png",
     "Basis Data/Pengenalan Basis Data+Data base.md",
     "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
     "Belajar HTML/Pengenalan HTML.md",
@@ -208,7 +204,6 @@
     "Basis Data/Basis Data.md",
     "Basis Data/Data Base.md",
     "Basis Data/Pengenalan Basis Data.md",
-    "Praktikum/Praktikum.md",
     "Belajar PHP/Pengenalan PHP.md",
     "Belajarr CSS/Eksplorasi CSS....md",
     "Belajarr CSS/Pengenalan CSS nih.md",

@@ -159,6 +159,7 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
 }
 ```
 ![image](../asetcss/left.png)
+
 - **Right**: Mengatur teks agar berada di sebelah kanan elemen.    
  ```css
 .text { 
@@ -166,6 +167,7 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
 }
 ```
 ![image](../asetcss/right.png)
+
 - **Center**: Mengatur teks agar berada di tengah elemen.
 ```css 
 .text {     
@@ -173,6 +175,7 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
 }
 ```
 ![image](../asetcss/center.png)
+
 - **Justify**: Mengatur teks agar rata kiri dan kanan, kecuali pada baris terakhir yang bisa berada di sebelah kiri.
 ```css 
 .text {
@@ -195,6 +198,7 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
 }
 ```
 ![image](../asetcss/left.png)
+
 - **Underline**: Menambahkan garis bawah pada teks.
 ```css
 .text {
@@ -202,6 +206,7 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
 }
 ```
 ![image](../asetcss/under.png)
+
 **Overline**: Menambahkan garis di atas teks.
 ```css
 .text {
@@ -209,6 +214,7 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
 }
 ```
 ![image](../asetcss/over.png)
+
 **Line-through**: Menambahkan garis melintang pada teks.
 ```css
 .text {
@@ -216,6 +222,7 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
 }
 ```
 ![image](../asetcss/trough.png)
+
 ## Text Transfrom
 **None**: Tidak ada transformasi pada teks (kapitalisasi tidak diubah).
 ```css
@@ -230,6 +237,7 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
 }
 ```
 ![image](../asetcss/upper.png)
+
 **Lowercase**: Mengubah semua huruf dalam teks menjadi huruf kecil (lowercase).
 ```css
 .text {
@@ -237,6 +245,7 @@ Dalam pemanggilan CSS, Anda dapat menetapkan gaya untuk berbagai elemen HTML men
 }
 ```
 ![image](../asetcss/lower.png)
+
 **Capitalize**: Mengubah setiap awal kata dalam teks menjadi huruf besar (uppercase).
 ```css
 .text {
