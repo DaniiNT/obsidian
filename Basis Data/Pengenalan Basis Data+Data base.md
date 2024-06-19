@@ -15,7 +15,9 @@ ___
  ___
 # Struktur Data Base
 	Contoh Gambar 
+
 ![STRUKTUR](../asetbs/struktur.jpg)
+
 >Struktur database melibatkan tabel sebagai entitas utama penimpanan data, dalam konteks tabel mahasiswa, setiap table memiliki `field(kolom)` seperti NIM, nama, jk, umur.
 >Record adalah `satu baris dalam tabel yang memuat nilai spesifik untuk setiap field.` Misalnya, record dengan NIM 001, nama "Andi", jk "Laki-laki", dan umur 19.
 >Dalam konteks penyimpanan fisik, tabel-tabel ini disimpan dalam `tabung` database. Database ini `merupakan wadah` yang dapat berisi satu atau lebih tabel, setiap tabel dalam data base mahasiswa bisa di anggap sebagai file terkait dengan inormasi mahasiswa ini `menciptakan struktur` heararki di mana `database adalah wadah utama`tabel adalah file, dan record adalah entitas individual yang menyimpan informasi mahasiswa
