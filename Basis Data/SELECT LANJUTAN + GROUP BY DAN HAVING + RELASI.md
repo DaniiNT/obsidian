@@ -1017,6 +1017,47 @@ ANALISIS:
 KESIMPULAN:
 query di atas adalah perintah untuk menghitung rata rata jumlah data dari kolom harga rental dan ditampilkan dengan kolom baru yaitu RERATA.
 
+# Relasi
+## Data Tabel Pegawai
+![relasi](../asetbs/r1.png)
+## Perubahan Struktur Table
+
+*Before*
+
+![relasi](../asetbs/r2.png)
+
+*After*
+
+![relasi](../asetbs/r3.png)
+## Perubahan Data Tabel Pegawai  & Cabang
+### Pegawai
+
+*Before*
+
+![relasi](../asetbs/r1.png)
+
+*After*
+
+![relasi](../asetbs/r5.png)
+
+### Cabang
+
+*Before*
+
+![relasi](../asetbs/r6.png)
+
+*After*
+
+![relasi](../asetbs/r7.png)
+
+## Hasil Relasi Pegawai & Cabang
+
+![relasi](../asetbs/r8.png)
+
+## Query & Hasil
+
+![image](../asetbs/r9.png)
+___
 # Group BY and Having
 ## 1.tampilkan jumlah data mobil dan kelompok kan berdasarkan warna nya sesuai dengan tabel mobil kalian.
 ### Struktur Query

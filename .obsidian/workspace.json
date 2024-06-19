@@ -84,7 +84,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -186,16 +187,19 @@
   },
   "active": "8211de6a54cd3bc7",
   "lastOpenFiles": [
+    "asetbs/r9.png",
+    "asetbs/r8.png",
+    "asetbs/r7.png",
+    "asetbs/r6.png",
+    "asetbs/r5.png",
+    "asetbs/r3.png",
+    "asetbs/r2.png",
+    "asetbs/r1.png",
     "Basis Data/Alter.md",
     "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
     "asetbs/by7.png",
     "asetbs/by6.png",
     "asetbs/by5.png",
-    "asetbs/by4.png",
-    "asetbs/by3.png",
-    "asetbs/by2.png",
-    "asetbs/by1.png",
-    "by1.png",
     "Basis Data/Pengenalan Basis Data+Data base.md",
     "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
     "Belajar HTML/Pengenalan HTML.md",
@@ -203,13 +207,11 @@
     "Spaces",
     "Basis Data/Basis Data.md",
     "Basis Data/Data Base.md",
-    "GAMBARBASDAT/tantanganlogin.png",
     "Basis Data/Pengenalan Basis Data.md",
     "Praktikum/Praktikum.md",
     "Belajar PHP/Pengenalan PHP.md",
     "Belajarr CSS/Eksplorasi CSS....md",
     "Belajarr CSS/Pengenalan CSS nih.md",
-    "assetss/res-2.png",
     "assetss",
     "assets",
     "Belajar HTML/Belajar HTML.md",
