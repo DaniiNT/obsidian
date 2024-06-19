@@ -4,8 +4,9 @@ email : nurrahmatrahmat344@gmail.com
 password ; 12345678
 
 # Terdapat 2 Role beserta masing-masing fiturnya
-## Role 1 : Admin
-## Role 2 : User/pengguna
+Role 1 : Admin
+
+Role 2 : User/pengguna
 
 # Fitur-Fitur
 ## Fitur Admin
