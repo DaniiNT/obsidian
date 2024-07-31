@@ -2,7 +2,7 @@
 
 
 # Tabel Pegawai 
-![hasil](asetbs/pegawai.png)
+![hasil](../asetbs/pegawai.png)
 # Query 1
 ## Contoh Query
 
@@ -10,7 +10,7 @@
 SELECT COUNT(NIP) AS JumlahPegawal, COUNT(Jabatan) AS JumlahJabatan FROM pegawai;
 ```
 ## Hasil
-![hasil](asetbs/p1.png)
+![hasil](../asetbs/p1.png)
 ## Analisis 
 - `SELECT` : Untuk memilih kolom apa saja yang ingin dipilih (untuk dihitung)
 - `COUNT(NIP)` : Untuk menghitung jumlah barisan data yang mempunyai isi data dari kolom yang dipilih. `NIP` adalah nama kolom yang dipilih untuk dihitung 
@@ -30,7 +30,7 @@ SELECT COUNT(NIP) AS Jumlah_pegawai
     -> WHERE NoCab = 'C102';
 ```
 ## Hasil
-![image](asetbs/p2.png)
+![image](../../asetbs/p2.png)
 ## Analisis 
  - Select = untuk memilih kolom mana saja yang ingin dipilih untuk dihitung.
  - COUNT(NIP) = untuk menghitung jumlah barisan data  yang mempunyai data dari kolom yang dipilih.
@@ -50,7 +50,7 @@ SELECT NoCab, COUNT(NIP) AS Jumlah_Pegawai
     -> GROUP BY NoCab;
 ```
 ## Hasil
-![image](asetbs/p3.png)
+![image](../asetbs/p3.png)
 ## Analisis 
 - SELECT = untuk memilih kolom mana saja yang ingin dihitung atau ditampilkan.
 - Nocab = merupakan nama kolom yang ingin ditampilkan.
@@ -67,7 +67,7 @@ SELECT NoCab, COUNT(NIP) AS Jumlah_Pegawai
 SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai FROM pegawai GROUP BY NoCab HAVING COUNT(NIP) >= 3;
 ```
 ## Hasil
-![Praktikum](asetbs/p4.png)
+![Praktikum](../asetbs/p4.png)
 ## Analisis 
 - SELECT = untuk memilih kolom mana saja yang ingin dihitung atau ditampilkan.
 - Nocab = merupakan nama kolom yang ingin ditampilkan.
@@ -87,7 +87,7 @@ Select SUM(Gaji) AS Total_Gaji
   ->FROM pegawai;
 ```
 ## Hasil
-![](asetbs/p5.png)
+![](../asetbs/p5.png)
 ## Analisis
 - SELECT = Untuk memilih kolom mana saja yang dipilih untuk dijumlahkan. 
 - SUM(Gaji) = Untuk menghitung jumlah data (khusus angka) pada kolom yang harus dipilh. Gaji merupakan nama kolom yang dipilih untuk dihitung jumlah isi datanya. 
@@ -102,7 +102,7 @@ Select SUM(Gaji) AS Gaji_Manager FROM pegawai WHERE
 Jabatan = 'Manajer';
 ```
 ## Hasil
-![Hasil](asetbs/p6.png)
+![Hasil](../asetbs/p6.png)
 ## Analisis
 - Select= untuk memiliki kolom mana saja yang dipilih untuk digunakan.
 - SUM= untuk menghitung jumlah isi data (khusus angka) pada kolom yang dipilih. gaji yang dipilih untuk dijumlahkan isi datanya.
@@ -120,7 +120,7 @@ Select NoCab, SUM(Gaji) TotalGaji
   ->GROUP BY NoCab;
 ```
 ## Hasil
-![Hasil](asetbs/p7.png)
+![Hasil](../asetbs/p7.png)
 ## Analisis
 - SELECT= untuk memilih kolom mana saja yang dipilih untuk ditampilkan atau dijumlahkan.
 - SUM(Gaji)= untuk menghitung jumlah data (khusus angka) pada kolom yang dipilih. Gaji adalah nama kolom yang dipilih untuk dijumlahkan isi datanya.
@@ -136,7 +136,7 @@ Select NoCab, SUM(Gaji) TotalGaji
 SELECT noCab, SUM(Gaji) AS Total_Gaji from pegawai GROUP BY noCab HAVING SUM(Gaji) >= 8000000;
 ```
 ## Hasil
-![hasil](asetbs/p8.png)
+![hasil](../asetbs/p8.png)
 ## Analisis
 - select = untuk memilih kolom mana saja yang dipilih untuk di tampilkan atau di jumlah.
 - noCab = nama kolom yang dipilih untuk ditampilkan.
@@ -156,7 +156,7 @@ ___
 SELECT AVG(Gaji) AS rata_rata from pegawai;
 ```
 ## Hasil
-![Hasil](asetbs/p9.png)
+![Hasil](../asetbs/p9.png)
 ## Analisis
 - Select = untuk memilih kolom mana data Yang dipilih untuk ditampilkan.
 - AVG (Gaji) = untuk menghitung rata-rata dari data yang ada Pada kolom Yang dipilih. Gaji adalah nama kolom Yang dipilih untuk dihitung rata-ratanya.
@@ -172,7 +172,7 @@ ___
 SELECT AVG(Gaji) AS GajiRataMgr FROM pegawai WHERE Jabatan = 'Manajer';
 ```
 ## Hasil
-![Hasil](asetbs/p10.png)
+![Hasil](../asetbs/p10.png)
 ## Analisis
 - SELECT = untuk memilih kolom mana saja yang dipilih untuk ditampilkan.
 - AVG (Gaji) = untuk menghitung rata-rata dari data yang ada pada kolom Yang dipilih. Gaji adalah nama kolom Yang dipilih untuk dihitung rata-ratanya.
@@ -189,7 +189,7 @@ ___
 SELECT nocab, AVG(gaji) AS ratagaji FROM pegawai GROUP BY nocab;
 ```
 ## Hasil
-![hasil](asetbs/p11.png)
+![hasil](../asetbs/p11.png)
 ## Analisis 
 - `SELECT` untuk memilih kolom mana saja yang dipilih untuk ditampilkan/dihitung.
 - `nocab` kolom yang dipilih untuk ditampilkan.
@@ -207,7 +207,7 @@ SELECT nocab, AVG(gaji) AS ratagaji FROM pegawai GROUP BY nocab;
 SELECT nocab, AVG(gaji) AS Ratagaji FROM pegawai GROUP BY nocab HAVING nocab = 'C101' OR nocab = 'C102';
 ```
 ## Hasil
-![hasil](asetbs/p12.png)
+![hasil](../asetbs/p12.png)
 ## Analisis 
 - `SELECT` untuk memilih kolom mana saja yang dipilih untuk ditampilkan/dihitung.
 - `nocab` kolom yang dipilih untuk ditampilkan.
@@ -226,7 +226,7 @@ SELECT nocab, AVG(gaji) AS Ratagaji FROM pegawai GROUP BY nocab HAVING nocab = '
 SELECT MAX(gaji) AS gajiterbesar, MIN(gaji) AS gajiterkecil FROM pegawai;
 ```
 ## Hasil
-![hasil](asetbs/p13.png)
+![hasil](../asetbs/p13.png)
 ## Analisis 
 - `SELECT` untuk memilih kolom mana saja yang dipilih untuk ditampilkan/dihitung.
 - `MAX(gaji)` untuk menampilkan nilai maksimum atau terbesar/tertinggi dari suatu data dalam kolom yang dipilih. Gaji adalah nama kolom yang dipilih.
@@ -244,7 +244,7 @@ FROM pegawai
 WHERE Jabatan = "Manajer";
 ```
 ## Hasil
-![](asetbs/p14.png)
+![](../asetbs/p14.png)
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan l.
 - `MAX(Gaji)`= Untuk menampilkan nilai terbesar dari suatu data dalam kolom yang dipilih. Gaji  adalah nama kolom yang dipilih.
@@ -265,7 +265,7 @@ FROM pegawai
 GROUP BY NoCab;
 ```
 ## Hasil
-![](asetbs/p15.png)
+![](../asetbs/p15.png)
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan.
 - `NoCab`= Nama kolom yang ingin ditampilkan.
@@ -286,7 +286,7 @@ FROM pegawai
 GROUP BY NoCab HAVING COUNT(NIP) >= 3;
 ```
 ## Hasil
-![](asetbs/p16.png)
+![](../asetbs/p16.png)
 ## Analisis
 - `SELECT`= Untuk memilih kolom nama mana saja yang dipilih untuk ditampilkan.
 - `NoCab`= Nama kolom yang ingin ditampilkan.
@@ -312,7 +312,7 @@ SELECT COUNT(NIP) AS JumlahPegawai,
     -> FROM pegawai;
 ```
 ## Hasil
-![gambar](asetbs/p17.png)
+![gambar](../asetbs/p17.png)
 ## Analisis
 - `Select`= untuk memilih kolom mana saja yang dipilih untuk di tampilkan. 
 - `COUNT(NIP)` = untuk menghitung jumlah barisan data yang ada pada kolom yang dipilih. 
@@ -342,7 +342,7 @@ ___
     -> HAVING SUM(Gaji) <= 2600000;
 ```
 ## Hasil 
-![gambar](asetbs/p18.png)
+![gambar](../asetbs/p18.png)
 ## Analisis
 - `Select`= untuk memilih kolom mana saja yang ingin digunakan. 
 - `COUNT(NIP)`= untuk menghitung barisan data yang ada pada kolom yang dipilih. 
