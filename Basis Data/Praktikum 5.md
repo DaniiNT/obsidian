@@ -30,7 +30,7 @@ SELECT COUNT(NIP) AS Jumlah_pegawai
     -> WHERE NoCab = 'C102';
 ```
 ## Hasil
-![image](../../asetbs/p2.png)
+![image](../asetbs/p2.png)
 ## Analisis 
  - Select = untuk memilih kolom mana saja yang ingin dipilih untuk dihitung.
  - COUNT(NIP) = untuk menghitung jumlah barisan data  yang mempunyai data dari kolom yang dipilih.
