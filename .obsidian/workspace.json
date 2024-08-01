@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/Praktikum 5.md",
+                "file": "Basis Data/Agregasi.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basis Data/Praktikum 5.md",
+                "file": "Basis Data/Agregasi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basis Data/Praktikum 5.md",
+                "file": "Basis Data/Agregasi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basis Data/Praktikum 5.md"
+                "file": "Basis Data/Agregasi.md"
               }
             }
           },
@@ -194,11 +194,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d326d9e94873ba5b",
+  "active": "4ed8f7e9a9a01d75",
   "lastOpenFiles": [
     "asetbs/desc.png",
     "Anonymous Function and Scope.md",
-    "Basis Data/Praktikum 5.md",
+    "Basis Data/Agregasi.md",
     "Pak Ibe .md",
     "Pasted image 20240731220923.png",
     "asetbs/p18.png",
