@@ -2,7 +2,7 @@ ___
 # Tabel Pegawai 
 ![hasil](../asetbs/pegawai.png)
 # StrukTable
-![image](asetbs/desc.png)
+![image](../asetbs/desc.png)
 # Query 1
 ## Contoh Query
 
