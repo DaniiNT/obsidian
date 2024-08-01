@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -194,11 +194,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4ed8f7e9a9a01d75",
+  "active": "d326d9e94873ba5b",
   "lastOpenFiles": [
-    "Pak Ibe .md",
+    "asetbs/desc.png",
     "Anonymous Function and Scope.md",
     "Basis Data/Praktikum 5.md",
+    "Pak Ibe .md",
     "Pasted image 20240731220923.png",
     "asetbs/p18.png",
     "Pasted image 20240731221312.png",

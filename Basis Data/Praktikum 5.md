@@ -3,6 +3,9 @@
 
 # Tabel Pegawai 
 ![hasil](../asetbs/pegawai.png)
+# Struktur Table
+![image](asetbs/desc.png)
+
 # Query 1
 ## Contoh Query
 
