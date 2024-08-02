@@ -236,7 +236,7 @@
         "alwaysDisplayCodeblockLang": false,
         "alwaysDisplayCodeblockIcon": true,
         "displayCodeBlockLanguage": true,
-        "displayCodeBlockIcon": false
+        "displayCodeBlockIcon": true
       },
       "gutter": {
         "highlightActiveLineNr": true,
@@ -265,7 +265,9 @@
             "php": "#7A5AA2",
             "html": "#F07B46",
             "css": "#25D4E6",
-            "sql": "#F2D324"
+            "sql": "#F2D324",
+            "dart": "#0136E6",
+            "js": "#68F208"
           }
         },
         "header": {
@@ -309,7 +311,9 @@
             "php": "#EFDE53",
             "html": "#BE02E8",
             "css": "#325410",
-            "sql": "#01D482"
+            "sql": "#01D482",
+            "dart": "#644E26",
+            "js": "#CDCC91"
           }
         },
         "header": {
@@ -350,7 +354,7 @@
   "alternateHighlightColorName": "",
   "languageBorderColorName": "",
   "foldAllCommand": false,
-  "settingsType": "codeblock",
+  "settingsType": "border",
   "langSpecificSettingsType": "header.codeBlockLangBackgroundColor",
   "languageSpecificLanguageName": ""
 }

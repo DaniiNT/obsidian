@@ -81,7 +81,7 @@ SELECT Nocab, COUNT(NIP) AS Jumlah_pegawai FROM pegawai GROUP BY NoCab HAVING CO
 - (COUNT (NIP) >= 3) = merupakan kondisi Yand harus dipenuhi oleh suatu kelompor data. Jadi hanya kelompok data Yang hasil hitungannya lebih atau Sama dengan 3.
 - Hasilnya seperti sebelumnya, ada 9 barisan data dibagi sesuai Nocab nya masing- -masing. Namun Yand ingin ditampilkan adalah hasil hitungan yang lebih dari atau sama dengan 3. Yaitu Nocab C102 Yang ada 3. Yand Jain c101 ada 2, c103 ada 2, C104 ada 2.
 # Query 5
-## Conoth Query
+## Contoh Query
 ```sql
 Select SUM(Gaji) AS Total_Gaji
   ->FROM pegawai;
@@ -132,7 +132,7 @@ Select NoCab, SUM(Gaji) TotalGaji
 - Hasilnya= jadi berdasarkan kolom NoCab, barisan data yang kolom NoCab-nya berisi C102 maka kolom gaji dari barisan data itu digunakan bersama barisan data yang meiliki NoCab C101 juga. maka kolom gaji dijumlahkan sesuai dengan kolom NOCab masing-masing, mulai dari C101 memiliki 2 kolom gaji yang bisa dijumlahkan. sama denfan C103 dand C104. adapun C102 memiliki 3 kolom Gaji yanf dapat dijumlahkan. TotalGaji merupakan hasil perintah dari AS untuk mengubah nama kolom gasil dari SUM(Gaji).
 # Query 8
 ## Contoh Query
-```mysql
+```sql
 SELECT noCab, SUM(Gaji) AS Total_Gaji from pegawai GROUP BY noCab HAVING SUM(Gaji) >= 8000000;
 ```
 ## Hasil
@@ -185,7 +185,7 @@ SELECT AVG(Gaji) AS GajiRataMgr FROM pegawai WHERE Jabatan = 'Manajer';
 ___
 # Query 11
 ## Contoh Query 
-```mysql
+```sql
 SELECT nocab, AVG(gaji) AS ratagaji FROM pegawai GROUP BY nocab;
 ```
 ## Hasil
@@ -203,7 +203,7 @@ SELECT nocab, AVG(gaji) AS ratagaji FROM pegawai GROUP BY nocab;
 ---
 # Query 12
 ## Contoh Query 
-```mysql
+```sql
 SELECT nocab, AVG(gaji) AS Ratagaji FROM pegawai GROUP BY nocab HAVING nocab = 'C101' OR nocab = 'C102';
 ```
 ## Hasil
@@ -222,7 +222,7 @@ SELECT nocab, AVG(gaji) AS Ratagaji FROM pegawai GROUP BY nocab HAVING nocab = '
 ---
 # Query 13
 ## Contoh Query 
-```mysql
+```sql
 SELECT MAX(gaji) AS gajiterbesar, MIN(gaji) AS gajiterkecil FROM pegawai;
 ```
 ## Hasil
@@ -332,10 +332,10 @@ ___
 ## Contoh Query
 ```sql
     SELECT COUNT(NIP) AS JumlahPegawai,
-    ->        SUM(Gaji) AS totalGaji,
-    ->        AVG(Gaji) AS RataGaji,
-    ->        MAX(Gaji) AS GajiMaks,
-    ->        MIN(Gaji) AS GajiMin
+    -> SUM(Gaji) AS totalGaji,
+    -> AVG(Gaji) AS RataGaji,
+    -> MAX(Gaji) AS GajiMaks,
+    -> MIN(Gaji) AS GajiMin
     -> FROM pegawai
     -> WHERE Jabatan = 'Staf' OR Jabatan = 'Sales'
     -> GROUP BY NoCab

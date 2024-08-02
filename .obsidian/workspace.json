@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Basis Data/Agregasi.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -93,11 +93,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2c455e6529ff64f6",
@@ -194,11 +195,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4ed8f7e9a9a01d75",
+  "active": "d326d9e94873ba5b",
   "lastOpenFiles": [
+    "Basis Data/Alter.md",
+    "Basis Data/Agregasi.md",
+    "Basis Data/Basis Data 12 RPL.md",
     "asetbs/desc.png",
     "Anonymous Function and Scope.md",
-    "Basis Data/Agregasi.md",
     "Pak Ibe .md",
     "Pasted image 20240731220923.png",
     "asetbs/p18.png",
@@ -209,11 +212,9 @@
     "asetbs/p14.png",
     "asetbs/p13.png",
     "asetbs/p12.png",
-    "asetbs/p11.png",
     "Praktikum_5.md",
     "Basis Data/Pengenalan Basis Data+Data base.md",
     "Basis Data/Pengenalan Basis Data+Data base.pdf",
-    "Basis Data/Basis Data 12 RPL.md",
     "asetdart",
     "New folder",
     "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
@@ -225,7 +226,6 @@
     "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.pdf",
     "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.pdf",
     "Basis Data/Alter.pdf",
-    "Basis Data/Alter.md",
     "Belajar HTML/Pengenalan HTML.md",
     "Belajarr CSS/Eksplorasi CSS....md",
     "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
