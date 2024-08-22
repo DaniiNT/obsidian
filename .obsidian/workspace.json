@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "02cebebf11b7b3c9",
+        "id": "2b840b8ba4a18602",
         "type": "tabs",
         "children": [
           {
-            "id": "d326d9e94873ba5b",
+            "id": "e40eeb494f8b18a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basis Data/Agregasi.md",
-                "mode": "preview",
+                "file": "Praktikum/Relasi Tabel.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2c455e6529ff64f6",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basis Data/Agregasi.md",
+                "file": "Praktikum/Relasi Tabel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basis Data/Agregasi.md",
+                "file": "Praktikum/Relasi Tabel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basis Data/Agregasi.md"
+                "file": "Praktikum/Relasi Tabel.md"
               }
             }
           },
@@ -195,30 +194,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d326d9e94873ba5b",
+  "active": "4ed8f7e9a9a01d75",
   "lastOpenFiles": [
-    "Basis Data/Alter.md",
-    "Basis Data/Agregasi.md",
-    "Basis Data/Basis Data 12 RPL.md",
-    "asetbs/desc.png",
+    "Relasi Tabel daud.md",
+    "Praktikum/Relasi Tabel.md",
+    "asetklm/r10.png",
+    "asetklm/r9.png",
+    "asetklm/r8.png",
+    "asetklm/r7.png",
+    "asetklm/r7.1.png",
+    "asetklm/r7.2.png",
+    "PRAKTIKUM 7.md",
+    "asetklm/r6.png",
+    "asetklm/r5.png",
+    "Pasted image 20240822102814.png",
+    "asetklm/r4.png",
     "Anonymous Function and Scope.md",
+    "Belajar PHP/Pengenalan PHP.md",
+    "Basis Data/Agregasi.md",
+    "Praktikum/Praktikum.md",
+    "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
+    "Basis Data/Pengenalan Basis Data+Data base.pdf",
+    "Basis Data/Alter.md",
+    "Basis Data/Basis Data 12 RPL.md",
     "Pak Ibe .md",
-    "Pasted image 20240731220923.png",
-    "asetbs/p18.png",
-    "Pasted image 20240731221312.png",
-    "asetbs/p17.png",
-    "asetbs/p16.png",
-    "asetbs/p15.png",
-    "asetbs/p14.png",
-    "asetbs/p13.png",
-    "asetbs/p12.png",
     "Praktikum_5.md",
     "Basis Data/Pengenalan Basis Data+Data base.md",
-    "Basis Data/Pengenalan Basis Data+Data base.pdf",
     "asetdart",
     "New folder",
-    "Basis Data/SELECT LANJUTAN + GROUP BY DAN HAVING + RELASI.md",
-    "Belajar PHP/Pengenalan PHP.md",
     "Praktikum/Praktikum.pdf",
     "Belajar PHP/Pengenalan PHP+PHP mysql.pdf",
     "Belajar HTML/Pengenalan HTML.pdf",
@@ -229,7 +232,6 @@
     "Belajar HTML/Pengenalan HTML.md",
     "Belajarr CSS/Eksplorasi CSS....md",
     "Belajarr CSS/CSS + BOOSTRAP +RESPONSIVE.md",
-    "Praktikum/Praktikum.md",
     "Basis Data/Basis Data.md",
     "Basis Data/Data Base.md",
     "Basis Data/Pengenalan Basis Data.md",
@@ -239,9 +241,6 @@
     "Random/Random.md",
     "Praktikum/Materi Kelompok.md",
     "Belajar PHP/Belajar PHP.md",
-    "Belajarr CSS/Belajarr CSS.md",
-    "Belajarr CSS/CSS Responsive.md",
-    "asethtml/Untitled.md",
     "Untitled.canvas"
   ]
 }

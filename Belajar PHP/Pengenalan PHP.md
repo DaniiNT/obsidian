@@ -3,7 +3,7 @@ Web dinamis adalah jenis situs web yang mampu menghasilkan konten secara dinamis
 # PHP
 PHP adalah bahasa pemrograman yang sering digunakan untuk mengembangkan aplikasi web dinamis. Singkatan dari "Hypertext Preprocessor", PHP berfungsi sebagai skrip sisi server yang dieksekusi di server web untuk menghasilkan konten dinamis. PHP berinteraksi dengan basis data, mengolah formulir, menghasilkan halaman web, dan melakukan banyak tugas lainnya untuk menciptakan pengalaman pengguna yang dinamis di situs web. Dengan bantuan PHP, pengembang dapat membuat situs web yang menanggapi input pengguna dan menyediakan konten yang dipersonalisasi sesuai kebutuhan.
 ## Struktur Dasar PHP
-```PHP
+```php
 <?php
 
 $variable = "value";
